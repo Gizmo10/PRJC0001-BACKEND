@@ -1,5 +1,6 @@
 package spring.patient.model;
-
+import jakarta.xml.bind.DatatypeConverter;
+import java.security.MessageDigest;
 import java.util.Random;
 
 public class PatientLogin {
@@ -46,7 +47,7 @@ public class PatientLogin {
         this.patientPassword = password;
     }
 
-    public String createPasswordSalt() {
+    public void setPasswordSalt() {
 
         String alphaNumeric = "ABCDEFGHIJKLNMOPQRSTUVWXYZabcdefghijklmn" +
                 "opqrstuvwxyz0123456789";
@@ -60,14 +61,20 @@ public class PatientLogin {
             char randomCharacter = alphaNumeric.charAt(index);
             sb.append(randomCharacter);
         }
-        return sb.toString();
-    }
-
-    public void setPasswordSalt() {
-        passwordSalt = createPasswordSalt();
+        this.passwordSalt = sb.toString();
     }
 
     public void setPasswordHash(String password, String salt) {
+          String sha1 = null;
+          String input = password + salt;
 
+          try{
+              MessageDigest msdDigest = MessageDigest.getInstance("SHA-1");
+              msdDigest.update(input.getBytes("UTF-8"), 0, input.length());
+              sha1 = DatatypeConverter.printHexBinary(msdDigest.digest());
+          } catch(Exception e) {
+              e.printStackTrace();
+          }
+          this.passwordHash = sha1;
     }
 }
