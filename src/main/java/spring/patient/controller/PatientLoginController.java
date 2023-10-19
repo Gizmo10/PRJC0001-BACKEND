@@ -1,5 +1,6 @@
 package spring.patient.controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,6 +13,11 @@ import java.sql.Statement;
 
 @RestController
 public class PatientLoginController {
+
+    @GetMapping("/test")
+    public String testServer(){
+        return ("The server does work bro");
+    }
 
     @PostMapping("/addPatientCredentials")
     public void addCredentials(@RequestBody PatientLogin patient) {
