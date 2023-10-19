@@ -15,8 +15,8 @@ import java.sql.Statement;
 public class PatientLoginController {
 
     @GetMapping("/test")
-    public void display(){
-        System.out.println("The server does work bro");
+    public String testServer(){
+        return ("The server does work bro");
     }
 
     @PostMapping("/addPatientCredentials")
