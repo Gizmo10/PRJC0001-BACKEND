@@ -8,6 +8,7 @@ import spring.patient.model.PatientLogin;
 import spring.patient.model.SqlUtil;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -37,8 +38,15 @@ public class PatientLoginController {
 
         try{
             Statement statement = con.createStatement();
-            String sqlQuery = "INSERT INTO patient_login_credentials VALUES(name,surname,salt,hash)";
-            statement.executeUpdate(sqlQuery);
+            String sqlQuery = "INSERT INTO patient_login_credentials(name,surname,salt,hash)" +
+                    " VALUES(?,?,?,?)";
+            PreparedStatement prpdState = con.prepareStatement(sqlQuery);
+            prpdState.setString(1,name);
+            prpdState.setString(2,surname);
+            prpdState.setString(3,salt);
+            prpdState.setString(4,hash);
+
+            prpdState.executeUpdate();
         } catch(SQLException e) {
             System.out.println("failed to update db");
             e.printStackTrace();
