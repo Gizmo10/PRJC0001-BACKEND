@@ -7,8 +7,13 @@
     <list default="true" id="fe84c58e-a270-47eb-9a90-cde81c95ecd4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+>>>>>>> patientLogin
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/controller/PatientLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/controller/PatientLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/model/SqlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/model/SqlUtil.java" afterDir="false" />
 >>>>>>> patientLogin
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +72,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
@@ -84,6 +90,17 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
+>>>>>>> patientLogin
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/swndz/Documents/TestSpring/Test&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
 >>>>>>> patientLogin
   }
 }</component>
