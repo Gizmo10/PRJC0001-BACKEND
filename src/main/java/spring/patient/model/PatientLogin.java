@@ -4,25 +4,20 @@ import java.security.MessageDigest;
 import java.util.Random;
 
 public class PatientLogin {
-    private String patientName;
-    private String patientSurname;
+    private String patientId;
     private String patientPassword;
     private String passwordSalt;
     private String passwordHash;
 
     public PatientLogin() {}
 
-    public PatientLogin(String name, String surname, String password) {
-        this.patientName = name;
-        this.patientSurname = surname;
+    public PatientLogin(String id, String password) {
+        this.patientId = id;
         this.patientPassword = password;
     }
 
-    public String getPatientName() {
-        return patientName; }
-
-    public String getPatientSurname() {
-        return patientSurname; }
+    public String getPatientId() {
+        return patientId; }
 
     public String getPatientPassword() {
         return patientPassword; }
@@ -35,12 +30,8 @@ public class PatientLogin {
         return passwordHash;
     }
 
-    public void setPatientName(String name) {
-        this.patientName = name;
-    }
-
-    public void setPatientSurname(String surname) {
-        this.patientSurname = surname;
+    public void setPatientId(String id) {
+        this.patientId = id;
     }
 
     public void setPatientPassword(String password) {
