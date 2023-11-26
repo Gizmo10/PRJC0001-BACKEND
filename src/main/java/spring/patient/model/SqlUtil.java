@@ -1,7 +1,10 @@
 package spring.patient.model;
 
+import org.springframework.stereotype.Component;
+
 import java.sql.*;
 
+@Component
 public class SqlUtil {
     private Connection connection = null;
 

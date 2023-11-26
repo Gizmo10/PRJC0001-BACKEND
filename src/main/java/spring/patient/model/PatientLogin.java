@@ -1,8 +1,11 @@
 package spring.patient.model;
 import jakarta.xml.bind.DatatypeConverter;
+import org.springframework.stereotype.Component;
+
 import java.security.MessageDigest;
 import java.util.Random;
 
+@Component
 public class PatientLogin {
     private String patientId;
     private String patientPassword;
