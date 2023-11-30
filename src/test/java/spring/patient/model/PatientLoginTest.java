@@ -2,7 +2,6 @@
 package spring.patient.model;
 
 //import org.junit.Test; Tests aren't recognised when you import this
-import org.apache.commons.lang3.builder.ToStringExclude;
 import org.junit.jupiter.api.Test;
 
 import java.util.regex.Matcher;
