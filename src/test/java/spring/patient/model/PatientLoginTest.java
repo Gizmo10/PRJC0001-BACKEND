@@ -2,6 +2,7 @@
 package spring.patient.model;
 
 //import org.junit.Test; Tests aren't recognised when you import this
+import org.apache.commons.lang3.builder.ToStringExclude;
 import org.junit.jupiter.api.Test;
 
 import java.util.regex.Matcher;
@@ -31,5 +32,23 @@ public class PatientLoginTest {
     public void theSaltIsAFixedLength() {
         patient.setPasswordSalt();
         assertEquals(20, patient.getPasswordSalt().length());
+    }
+
+    @Test
+    public void hashCannotBeNull() {
+        patient.setPasswordSalt();
+        patient.setPasswordHash("123456as", patient.getPasswordSalt());
+        assertNotNull(patient.getPasswordHash());
+    }
+
+    @Test
+    public void generatesHashInHexadecimal() {
+        String hashPattern = "^[0-9 | A-F]([0-9 | A-F]+)$";
+        Pattern pattern = Pattern.compile(hashPattern);
+        patient.setPasswordSalt();
+        patient.setPasswordHash("123456as", patient.getPasswordSalt());
+        Matcher matcher = pattern.matcher(patient.getPasswordHash());
+        assertTrue(matcher.find());
+
     }
 }
