@@ -7,23 +7,23 @@ import java.util.Random;
 
 @Component
 public class PatientLogin {
-    private String patientId;
-    private String patientPassword;
+    private String id;
+    private String password;
     private String passwordSalt;
     private String passwordHash;
 
     public PatientLogin() {}
 
     public PatientLogin(String id, String password) {
-        this.patientId = id;
-        this.patientPassword = password;
+        this.id = id;
+        this.password = password;
     }
 
     public String getPatientId() {
-        return patientId; }
+        return this.id; }
 
     public String getPatientPassword() {
-        return patientPassword; }
+        return this.password; }
 
     public String getPasswordSalt() {
         return passwordSalt;
@@ -34,11 +34,11 @@ public class PatientLogin {
     }
 
     public void setPatientId(String id) {
-        this.patientId = id;
+        this.id = id;
     }
 
     public void setPatientPassword(String password) {
-        this.patientPassword = password;
+        this.password = password;
     }
 
     public void setPasswordSalt() {

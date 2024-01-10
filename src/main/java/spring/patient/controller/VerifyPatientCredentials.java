@@ -20,12 +20,12 @@ public class VerifyPatientCredentials {
     private PatientLogin patient;
 
     @GetMapping("/loginUser")
-    public boolean verifyCredentials(@RequestParam("patientId") String patientId, @RequestParam String patientPassword) {
+    public boolean verifyCredentials(@RequestParam("id") String patientId, @RequestParam("password") String patientPassword) {
         patient.setPatientId(patientId);
         patient.setPatientPassword(patientPassword);
-
         String id = patient.getPatientId();
         String password = patient.getPatientPassword();
+
         String hash = null;
         boolean userExists = false;
 
