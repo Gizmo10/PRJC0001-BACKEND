@@ -1,4 +1,5 @@
 package spring.patient.model;
+import jakarta.persistence.*;
 import jakarta.xml.bind.DatatypeConverter;
 import org.springframework.stereotype.Component;
 
@@ -6,10 +7,17 @@ import java.security.MessageDigest;
 import java.util.Random;
 
 @Component
+@Entity
+@Table(name="patient_login_credentials")
 public class PatientLogin {
+    @Id
+    @Column(name="id")
     private String id;
+    @Transient
     private String password;
+    @Column(name="salt")
     private String passwordSalt;
+    @Column(name="hash")
     private String passwordHash;
 
     public PatientLogin() {}
@@ -18,6 +26,13 @@ public class PatientLogin {
         this.id = id;
         this.password = password;
     }
+
+    public PatientLogin(String id, String salt, String hash){
+        this.id = id;
+        this.passwordSalt = salt;
+        this.passwordHash = hash;
+    }
+
 
     public String getPatientId() {
         return this.id; }
@@ -70,5 +85,11 @@ public class PatientLogin {
               e.printStackTrace();
           }
           this.passwordHash = sha1;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("[id='%s', salt='%s', hash='%s']",
+                id,passwordSalt,passwordHash);
     }
 }
