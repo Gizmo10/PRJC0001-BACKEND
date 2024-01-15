@@ -1,0 +1,35 @@
+[2024-01-15 16:09:46,054] http-nio-8080-exec-1 patientLogin 31 INFO  - PatientID: '9106579006123' and PatientID(DB): '9106579006123 
+[2024-01-15 16:09:46,070] http-nio-8080-exec-1 patientLogin 34 INFO  - Password hash: '278B0FF1AD289033D9A3B7387CC98E968FA50D61'
+[2024-01-15 16:09:46,070] http-nio-8080-exec-1 patientLogin 36 INFO  - User Exists: %b
+[2024-01-15 16:09:46,070] http-nio-8080-exec-1 patientLogin 46 INFO  - Info Message!
+[2024-01-15 16:09:46,070] http-nio-8080-exec-1 patientLogin 47 WARN  - Warn Message!
+[2024-01-15 16:09:46,070] http-nio-8080-exec-1 patientLogin 48 ERROR - Error Message!
+[2024-01-15 16:09:46,070] http-nio-8080-exec-1 patientLogin 49 FATAL - Fatal message
+[2024-01-15 16:46:48,177] http-nio-8080-exec-1 patientLogin 31 INFO  - PatientID: '9106579006123' and PatientID(DB): '9106579006123 
+[2024-01-15 16:46:48,203] http-nio-8080-exec-1 patientLogin 34 INFO  - Password hash: '278B0FF1AD289033D9A3B7387CC98E968FA50D61'
+[2024-01-15 16:46:48,205] http-nio-8080-exec-1 patientLogin 36 INFO  - User Exists: %b
+[2024-01-15 16:46:48,209] http-nio-8080-exec-1 patientLogin 46 INFO  - Info Message!
+[2024-01-15 16:46:48,210] http-nio-8080-exec-1 patientLogin 47 WARN  - Warn Message!
+[2024-01-15 16:46:48,210] http-nio-8080-exec-1 patientLogin 48 ERROR - Error Message!
+[2024-01-15 16:46:48,210] http-nio-8080-exec-1 patientLogin 49 FATAL - Fatal message
+[2024-01-15 16:53:43,938] http-nio-8080-exec-1 patientLogin 31 INFO  - PatientID: '9106579006123' and PatientID(DB): '9106579006123 
+[2024-01-15 16:53:43,950] http-nio-8080-exec-1 patientLogin 34 INFO  - Password hash: '278B0FF1AD289033D9A3B7387CC98E968FA50D61'
+[2024-01-15 16:53:43,950] http-nio-8080-exec-1 patientLogin 36 INFO  - User Exists: %b
+[2024-01-15 16:53:43,950] http-nio-8080-exec-1 patientLogin 46 INFO  - Info Message!
+[2024-01-15 16:53:43,950] http-nio-8080-exec-1 patientLogin 47 WARN  - Warn Message!
+[2024-01-15 16:53:43,951] http-nio-8080-exec-1 patientLogin 48 ERROR - Error Message!
+[2024-01-15 16:53:43,951] http-nio-8080-exec-1 patientLogin 49 FATAL - Fatal message
+[2024-01-15 16:55:57,731] http-nio-8080-exec-1 patientLogin 31 [INFO ] - PatientID: '9106579006123' and PatientID(DB): '9106579006123 
+[2024-01-15 16:55:57,739] http-nio-8080-exec-1 patientLogin 34 [INFO ] - Password hash: '278B0FF1AD289033D9A3B7387CC98E968FA50D61'
+[2024-01-15 16:55:57,739] http-nio-8080-exec-1 patientLogin 36 [INFO ] - User Exists: %b
+[2024-01-15 16:55:57,739] http-nio-8080-exec-1 patientLogin 46 [INFO ] - Info Message!
+[2024-01-15 16:55:57,739] http-nio-8080-exec-1 patientLogin 47 [WARN ] - Warn Message!
+[2024-01-15 16:55:57,740] http-nio-8080-exec-1 patientLogin 48 [ERROR] - Error Message!
+[2024-01-15 16:55:57,740] http-nio-8080-exec-1 patientLogin 49 [FATAL] - Fatal message
+[2024-01-15 16:58:10,968] http-nio-8080-exec-1 VerifyPatientCredentials.verifyCredentials(VerifyPatientCredentials.java:31) [INFO ] - PatientID: '9106579006123' and PatientID(DB): '9106579006123 
+[2024-01-15 16:58:10,984] http-nio-8080-exec-1 VerifyPatientCredentials.verifyCredentials(VerifyPatientCredentials.java:34) [INFO ] - Password hash: '278B0FF1AD289033D9A3B7387CC98E968FA50D61'
+[2024-01-15 16:58:10,984] http-nio-8080-exec-1 VerifyPatientCredentials.verifyCredentials(VerifyPatientCredentials.java:36) [INFO ] - User Exists: %b
+[2024-01-15 16:58:10,984] http-nio-8080-exec-1 VerifyPatientCredentials.verifyCredentials(VerifyPatientCredentials.java:46) [INFO ] - Info Message!
+[2024-01-15 16:58:10,984] http-nio-8080-exec-1 VerifyPatientCredentials.verifyCredentials(VerifyPatientCredentials.java:47) [WARN ] - Warn Message!
+[2024-01-15 16:58:10,984] http-nio-8080-exec-1 VerifyPatientCredentials.verifyCredentials(VerifyPatientCredentials.java:48) [ERROR] - Error Message!
+[2024-01-15 16:58:10,984] http-nio-8080-exec-1 VerifyPatientCredentials.verifyCredentials(VerifyPatientCredentials.java:49) [FATAL] - Fatal message

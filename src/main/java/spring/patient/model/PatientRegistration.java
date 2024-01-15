@@ -1,19 +1,39 @@
 package spring.patient.model;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import org.springframework.beans.factory.annotation.Autowired;
 
+@Entity
+@Table(name="registered_patients")
 public class PatientRegistration {
+    @Column(name="name")
     private String name;
+    @Column(name="surname")
     private String surname;
+    @Id
+    @Column(name="id")
     private String id;
+    @Column(name="birthdate")
     private String birthdate;
+    @Column(name="email")
     private String email;
+    @Column(name="cellphone_number")
     private String cellphoneNumber;
+    @Column(name="street")
     private String streetName;
+    @Column(name="city")
     private String city;
+    @Column(name="suburb")
     private String suburb;
+    @Column(name="province")
     private String province;
+    @Column(name="postal_code")
     private String postalCode;
+
+    public PatientRegistration(){};
 
     public PatientRegistration(String name, String surname, String id, String birthdate,String cellphoneNumber, String email,
                                String streetName, String suburb, String city, String postalCode, String province) {
