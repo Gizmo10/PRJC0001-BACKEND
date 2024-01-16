@@ -1,5 +1,6 @@
 package spring.patient.controller;
 
+import lombok.extern.log4j.Log4j2;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,36 +18,32 @@ public class VerifyPatientCredentials {
     @Autowired
     private PatientLoginDao patientLoginDao;
 
-    private static final Logger logger = LogManager.getLogger("patientLogin");
+    private static final Logger log = LogManager.getLogger("patientLogin");
 
     @GetMapping("/loginUser")
     public boolean verifyCredentials(@RequestParam("id") String patientId, @RequestParam("password") String patientPassword) {
         boolean userExists = false;
-        patient.setPatientId(patientId);
-        patient.setPatientPassword(patientPassword);
+        patient.setId(patientId);
+        patient.setPassword(patientPassword);
 
+        log.info(String.format("Authenticating user: '%s'",patientId));
         try{
             for (PatientLogin p : patientLoginDao.findAll()) {
-                if (p.getPatientId().equals(patient.getPatientId())) {
-                    logger.info(String.format("PatientID: '%s' and PatientID(DB): '%s ",patient.getPatientId(),
-                    p.getPatientId()));
-                    patient.setPasswordHash(patient.getPatientPassword(), p.getPasswordSalt());
-                    logger.info(String.format("Password hash: '%s'",patient.getPasswordHash()));
+                if (p.getId().equals(patient.getId())) {
+                    patient.setPasswordHash(patient.getId(),patient.getPassword(), p.getPasswordSalt());
                     userExists = patient.getPasswordHash().equals(p.getPasswordHash());
-                    logger.info("User Exists: %b", userExists);
                     }
                 }
         } catch(Exception e) {
-            System.out.println("Failed to verify patient credentials");
+            log.error(String.format("Failed to authenticate user: '%s'",patientId),e.getMessage());
             e.printStackTrace();
         }
-        //Fix this to work with Log4J - logger.setLevel(LEVEL.trace);
-        logger.trace("Trace Message!");
-        logger.debug("Debug Message!");
-        logger.info("Info Message!");
-        logger.warn("Warn Message!");
-        logger.error("Error Message!");
-        logger.fatal("Fatal message");
+
+        if(userExists){
+            log.info(String.format("Successfully authenticated user: '%s'",patientId));
+        } else{
+            log.warn(String.format("Failed to authenticate user: '%s'",patientId));
+        }
         return userExists;
     }
 }
