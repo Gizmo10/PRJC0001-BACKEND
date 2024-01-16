@@ -18,7 +18,6 @@ public class RegisterPatient {
 
     @PostMapping("/registerPatient")
     public void registerPatient(@RequestBody PatientRegistration regDetails) {
-        String id = regDetails.getId();
         log.info(String.format("Registering user: '%s'",regDetails.getId()));
         try {
             patientRegistrationDao.save(regDetails);
