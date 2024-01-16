@@ -1,19 +1,52 @@
 package spring.patient.model;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 
+@Entity
+@Table(name="registered_patients")
 public class PatientRegistration {
+    @Column(name="name")
+    @Getter@Setter
     private String name;
+    @Column(name="surname")
+    @Getter@Setter
     private String surname;
+    @Id
+    @Column(name="id")
+    @Getter@Setter
     private String id;
+    @Column(name="birthdate")
+    @Getter@Setter
     private String birthdate;
+    @Column(name="email")
+    @Getter@Setter
     private String email;
+    @Column(name="cellphone_number")
+    @Getter@Setter
     private String cellphoneNumber;
+    @Column(name="street")
+    @Getter@Setter
     private String streetName;
+    @Column(name="city")
+    @Getter@Setter
     private String city;
+    @Column(name="suburb")
+    @Getter@Setter
     private String suburb;
+    @Column(name="province")
+    @Getter@Setter
     private String province;
+    @Column(name="postal_code")
+    @Getter@Setter
     private String postalCode;
+
+    public PatientRegistration(){};
 
     public PatientRegistration(String name, String surname, String id, String birthdate,String cellphoneNumber, String email,
                                String streetName, String suburb, String city, String postalCode, String province) {
@@ -28,94 +61,6 @@ public class PatientRegistration {
         this.suburb = suburb;
         this.province = province;
         this.postalCode = postalCode;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public void setBirthdate(String birthdate) {
-        this.birthdate = birthdate;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setCellphoneNumber(String cellphoneNumber) {
-        this.cellphoneNumber = cellphoneNumber;
-    }
-
-    public void setStreetName(String streetName) {
-        this.streetName = streetName;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public void setSuburb(String suburb) {
-        this.suburb = suburb;
-    }
-
-    public void setProvince(String province) {
-        this.province = province;
-    }
-
-    public void setPostalCode(String postalCode) {
-        this.postalCode = postalCode;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getSurname() {
-        return surname;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public String getBirthdate() {
-        return birthdate;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public String getCellphoneNumber() {
-        return cellphoneNumber;
-    }
-
-    public String getStreetName() {
-        return streetName;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public String getSuburb() {
-        return suburb;
-    }
-
-    public String getProvince() {
-        return province;
-    }
-
-    public String getPostalCode() {
-        return postalCode;
     }
     //selfie and ID as member variables
 }

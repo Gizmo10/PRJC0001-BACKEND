@@ -14,7 +14,7 @@ public class PatientLoginTest {
 
     @Test
     public void saltCannotBeEmpty(){
-        patient.setPasswordSalt();
+        patient.setPasswordSalt("6910056332070");
         assertNotNull(patient.getPasswordSalt());
     }
 
@@ -22,21 +22,21 @@ public class PatientLoginTest {
     public void generatesAnAlphanumericSalt() {
         String saltPattern = "^[A-Z | a-z | 0-9]([A-Z | a-z | 0-9]{19})$";
         Pattern pattern = Pattern.compile(saltPattern);
-        patient.setPasswordSalt();
+        patient.setPasswordSalt("6910056332070");
         Matcher matcher = pattern.matcher(patient.getPasswordSalt());
         assertTrue(matcher.find());
     }
 
     @Test
     public void theSaltIsAFixedLength() {
-        patient.setPasswordSalt();
+        patient.setPasswordSalt("6910056332070");
         assertEquals(20, patient.getPasswordSalt().length());
     }
 
     @Test
     public void hashCannotBeNull() {
-        patient.setPasswordSalt();
-        patient.setPasswordHash("123456as", patient.getPasswordSalt());
+        patient.setPasswordSalt("6910056332070");
+        patient.setPasswordHash("6910056332070","123456as", patient.getPasswordSalt());
         assertNotNull(patient.getPasswordHash());
     }
 
@@ -44,8 +44,8 @@ public class PatientLoginTest {
     public void generatesHashInHexadecimal() {
         String hashPattern = "^[0-9 | A-F]([0-9 | A-F]+)$";
         Pattern pattern = Pattern.compile(hashPattern);
-        patient.setPasswordSalt();
-        patient.setPasswordHash("123456as", patient.getPasswordSalt());
+        patient.setPasswordSalt("6910056332070");
+        patient.setPasswordHash("6910056332070","123456as", patient.getPasswordSalt());
         Matcher matcher = pattern.matcher(patient.getPasswordHash());
         assertTrue(matcher.find());
 

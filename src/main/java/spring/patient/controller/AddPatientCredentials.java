@@ -1,47 +1,36 @@
 package spring.patient.controller;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import spring.patient.data.PatientLoginDao;
 import spring.patient.model.PatientLogin;
-import spring.patient.model.SqlUtil;
 
-import java.sql.*;
-
-@CrossOrigin(origins = "http://localhost:3001")
+//@CrossOrigin(origins = "http://localhost:3001")
 @RestController
 @RequestMapping("patient")
 public class AddPatientCredentials {
     @Autowired
-    private SqlUtil db;
+    private PatientLoginDao patientLoginDao;
     @Autowired
     PatientLogin patient;
+    private static final Logger log = LogManager.getLogger("patientLogin");
 
     @PostMapping("/addPatientCredentials")
     public void addCredentials(@RequestParam("id") String id,@RequestParam("password") String password) {
-        patient.setPatientId(id);
-        patient.setPatientPassword(password);
+        patient.setId(id);
+        patient.setPassword(password);
+        patient.setPasswordSalt(id);
+        patient.setPasswordHash(patient.getId(),patient.getPassword(),patient.getPasswordSalt());
 
-        String salt = null;
-        String hash = null;
-
-        patient.setPasswordSalt();
-        salt = patient.getPasswordSalt();
-        patient.setPasswordHash(patient.getPatientPassword(), salt);
-        hash = patient.getPasswordHash();
-
-        Connection con = db.getConnection();
-
+        log.info(String.format("Adding credentials for user: '%s'",patient.getId()));
         try {
-            String sqlQuery = "INSERT INTO patient_login_credentials(id, salt, hash)" +
-                    " VALUES(?,?,?)";
-            PreparedStatement prpdState = con.prepareStatement(sqlQuery);
-            prpdState.setString(1, patient.getPatientId());
-            prpdState.setString(2, salt);
-            prpdState.setString(3, hash);
-            prpdState.executeUpdate();
-        } catch (SQLException e) {
-            System.out.println("failed to update db");
+            patientLoginDao.save(patient);
+        } catch(Exception e) {
+            log.error(String.format("Failed to add credentials for user: '%s",patient.getId()),e.getMessage());
             e.printStackTrace();
         }
+        log.info(String.format("Successfully added credentials for user: '%s'",patient.getId()));
     }
 }

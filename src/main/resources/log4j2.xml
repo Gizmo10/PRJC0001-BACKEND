@@ -1,0 +1,22 @@
+<Configuration status="info">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d] %t %c %L [%-5p] - %m%n"/> >
+        </Console>
+        <File name="LogFile" fileName="C:/Users/swndz/Documents/MSN01CRTCL/PRJC0001-BACKEN/app.log">
+            <PatternLayout pattern="[%d] %t %C{1}.%M(%F:%L) [%-5p] - %m%n" />
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="patientLogin" level="info">
+            <!-- Default console appender used
+            <AppenderRef ref="Console"/>
+            -->
+            <AppenderRef ref="LogFile"/>
+        </Logger>
+        <!-- Log everything info level -->
+        <Root level="info">
+            <AppenderRef ref="Console" />
+        </Root>
+    </Loggers>
+</Configuration>
