@@ -6,26 +6,32 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import spring.patient.data.PatientRegistrationDao;
 import spring.patient.model.PatientRegistration;
+import spring.patient.model.ValidateInput;
 
-@CrossOrigin(origins = "http://localhost:3001")
+//@CrossOrigin(origins = "http://localhost:3001")
 @RestController
 @RequestMapping("patient")
 public class RegisterPatient {
     @Autowired
     private PatientRegistrationDao patientRegistrationDao;
-
+    @Autowired
+    ValidateInput inputValidator;
     private static final Logger log = LogManager.getLogger("patientLogin");
 
     @PostMapping("/registerPatient")
     public void registerPatient(@RequestBody PatientRegistration regDetails) {
         log.info(String.format("Registering user: '%s'",regDetails.getId()));
-        try {
-            patientRegistrationDao.save(regDetails);
-        } catch(Exception e) {
-            log.error(String.format("Failed registering user: '%s'",regDetails.getId()),e.getMessage());
-            e.printStackTrace();
+        if(inputValidator.validateRegistrationDetails(regDetails)) {
+            try {
+                patientRegistrationDao.save(regDetails);
+            } catch(Exception e) {
+                log.error(String.format("Failed registering user: '%s'",regDetails.getId()),e.getMessage());
+                e.printStackTrace();
+            }
+            log.info(String.format("Successfully registered user: '%s'",regDetails.getId()));
+        } else {
+            log.warn(String.format("Invalid registration details user: '%s",regDetails.getId()));
         }
-        log.info(String.format("Successfully registered user: '%s'",regDetails.getId()));
     }
 }
 
