@@ -1,6 +1,8 @@
 package spring.patient.model;
 
 import lombok.Getter;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Component;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -32,10 +34,11 @@ public class ValidateInput {
         private String postalCodePattern;
         @Getter
         private String genericPattern;
+        private static final Logger log = LogManager.getLogger("patientLogin");
 
         public ValidateInput() {
             this.namePattern = "^[A-Z]([a-z]{2,30})$";
-            this.surnamePattern = "^[A-Z][a-z]{0,20}([\s | -][A-Z][a-z]{2,20}){0,2}[a-z]$";
+            this.surnamePattern = "^[A-Z][a-z]{0,20}(([\s | -][A-Z][a-z]{2,20}){0,2})$";
             this.idPattern = "^[0-9]{13}$";
             this.passwordPattern = "^[A-Z | a-z | 0-9]{6,9}$";
             this.birthdatePattern1900 = "^[1][8 | 9][0-9]{2}";
@@ -49,22 +52,33 @@ public class ValidateInput {
         }
 
         public boolean validateRegistrationFormInput(String input, String regEx) {
-            Pattern pattern = Pattern.compile(regEx);
-            Matcher matcher = pattern.matcher(input);
-            return matcher.find();
+            boolean valid = false;
+            try{
+                Pattern pattern = Pattern.compile(regEx);
+                Matcher matcher = pattern.matcher(input);
+                valid = matcher.find();
+            } catch(Exception e) {
+                log.error(e.getMessage());
+            }
+            return valid;
         }
 
         public boolean idMatchesBirthdate(String id, String birthdate) {
-            String idYear = id.substring(0,2);
-            String idMonth = id.substring(2,4);
-            String idDay = id.substring(4,6);
+            boolean isMatch = false;
+            try {
+                String idYear = id.substring(0,2);
+                String idMonth = id.substring(2,4);
+                String idDay = id.substring(4,6);
 
-            String birthdateYear = birthdate.substring(2,4);
-            String birthdateMonth = birthdate.substring(5,7);
-            String birthdateDay = birthdate.substring(8);
-
-            return ((idYear.equals(birthdateYear)) && (idMonth.equals(birthdateMonth))
-                    && (idDay.equals(birthdateDay)));
+                String birthdateYear = birthdate.substring(2,4);
+                String birthdateMonth = birthdate.substring(5,7);
+                String birthdateDay = birthdate.substring(8);
+                isMatch = idYear.equals(birthdateYear) && idMonth.equals(birthdateMonth)
+                        && idDay.equals(birthdateDay);
+            } catch(Exception e) {
+                log.error(e.getMessage());
+            }
+            return isMatch;
         }
 
         public boolean passwordsMatch(String password, String rePassword) {

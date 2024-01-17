@@ -8,6 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 //Make the class public for test to be picked up
 public class PatientLoginTest {
     private PatientLogin patient = new PatientLogin();
@@ -48,6 +49,5 @@ public class PatientLoginTest {
         patient.setPasswordHash("6910056332070","123456as", patient.getPasswordSalt());
         Matcher matcher = pattern.matcher(patient.getPasswordHash());
         assertTrue(matcher.find());
-
     }
 }
