@@ -72,3 +72,17 @@
 [2024-01-16 12:28:26,985] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:22) [INFO ] - Registering user: '8705055334077'
 [2024-01-16 12:30:56,513] http-nio-8080-exec-3 RegisterPatient.registerPatient(RegisterPatient.java:22) [INFO ] - Registering user: '8705055334077'
 [2024-01-16 12:30:56,862] http-nio-8080-exec-3 RegisterPatient.registerPatient(RegisterPatient.java:29) [INFO ] - Successfully registered user: '8705055334077'
+[2024-01-17 17:47:51,378] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:55) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-17 17:47:51,392] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:66) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-01-17 17:47:51,393] Test worker PatientLogin.setPasswordHash(PatientLogin.java:74) [INFO ] - Generating hash for user: '6910056332070'
+[2024-01-17 17:47:51,405] Test worker PatientLogin.setPasswordHash(PatientLogin.java:83) [INFO ] - Successfully generated hash for user: '6910056332070
+[2024-01-17 17:47:51,428] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:55) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-17 17:47:51,428] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:66) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-01-17 17:47:51,429] Test worker PatientLogin.setPasswordHash(PatientLogin.java:74) [INFO ] - Generating hash for user: '6910056332070'
+[2024-01-17 17:47:51,430] Test worker PatientLogin.setPasswordHash(PatientLogin.java:83) [INFO ] - Successfully generated hash for user: '6910056332070
+[2024-01-17 17:47:51,436] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:55) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-17 17:47:51,436] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:66) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-01-17 17:47:51,439] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:55) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-17 17:47:51,440] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:66) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-01-17 17:47:51,443] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:55) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-17 17:47:51,443] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:66) [INFO ] - Successfully generated salt for user: '6910056332070'
