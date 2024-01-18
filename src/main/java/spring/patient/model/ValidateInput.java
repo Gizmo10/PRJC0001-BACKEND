@@ -45,7 +45,7 @@ public class ValidateInput {
             this.birthdatePattern2000 = "^[2][0][0-9]{2}";
             this.cellphoneNumberWithCountryCodePattern = "^[+][0-9]{11}$";
             this.cellphoneNumberPattern =  "^[0][0-9]{9}$";
-            this.emailPattern = "^[A-Z | a-z][A-Z | a-z |0-9]{2,20}([.][0-9 | A-Z | a-z]{2,30})?[@][a-z]{2,30}[.](com)$";
+            this.emailPattern = "^[A-Z | a-z][A-Z | a-z |0-9]{0,20}([.][0-9 | A-Z | a-z]{1,30})?[@][a-z]{2,30}[.](com)$";
             this.genericPattern = "^[A-Z][a-z]{1,20}((\s[A-Z][a-z]{2,20}){0,3})$";
             this.streetNamePattern = "^[0-9]{1,6}[A-Z | a-z]{0,2}((\s[A-Z][a-z]{2,20}){1,4})$";
             this.postalCodePattern = "^[0-9]{4}$";
@@ -93,7 +93,7 @@ public class ValidateInput {
                     || this.validateRegistrationFormInput(patientDetails.getBirthdate(),this.getBirthdatePattern2000());
             boolean idMatchesBirthdate = this.idMatchesBirthdate(patientDetails.getId(),patientDetails.getBirthdate());
             boolean isValidCellphone = this.validateRegistrationFormInput(patientDetails.getCellphoneNumber(),this.getCellphoneNumberWithCountryCodePattern())
-                    || this.validateRegistrationFormInput(patientDetails.getCity(),this.getCellphoneNumberPattern());
+                    || this.validateRegistrationFormInput(patientDetails.getCellphoneNumber(),this.getCellphoneNumberPattern());
             boolean isValidEmail = this.validateRegistrationFormInput(patientDetails.getEmail(),this.getEmailPattern());
             boolean isValidPassword = this.validateRegistrationFormInput(patientDetails.getPassword(), this.getPasswordPattern());
             boolean isValidRepassword = this.validateRegistrationFormInput(patientDetails.getRePassword(),this.getPasswordPattern());

@@ -9,7 +9,7 @@ import spring.patient.data.PatientLoginDao;
 import spring.patient.model.PatientLogin;
 import spring.patient.model.ValidateInput;
 
-//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("patient")
 public class VerifyPatientCredentials {

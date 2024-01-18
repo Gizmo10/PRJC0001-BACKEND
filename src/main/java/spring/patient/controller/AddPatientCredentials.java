@@ -8,7 +8,7 @@ import spring.patient.data.PatientLoginDao;
 import spring.patient.model.PatientLogin;
 import spring.patient.model.ValidateInput;
 
-//@CrossOrigin(origins = "http://localhost:3001")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("patient")
 public class AddPatientCredentials {
@@ -25,7 +25,7 @@ public class AddPatientCredentials {
         boolean validInput = inputValidator.validateRegistrationFormInput(id, inputValidator.getIdPattern()) &&
                 inputValidator.validateRegistrationFormInput(password,inputValidator.getPasswordPattern());
 
-        log.info(String.format("Adding credentials for user: '%s'",patient.getId()));
+        log.info(String.format("Adding credentials for user: '%s'",id));
         if(validInput) {
             patient.setId(id);
             patient.setPassword(password);
