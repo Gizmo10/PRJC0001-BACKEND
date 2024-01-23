@@ -1,13 +1,12 @@
-package spring.patient.model;
+package spring.patient.service;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ValidateInputTest {
+class ValidateRegistrationDetailsTest {
 
-    ValidateInput validateInput = new ValidateInput();
+    ValidateRegistrationDetails validateInput = new ValidateRegistrationDetails();
 
     @Test
     public void testValidId() {
@@ -432,33 +431,4 @@ class ValidateInputTest {
         String birthdate = "1992/02/24";
         assertFalse(validateInput.idMatchesBirthdate(id,birthdate));
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
