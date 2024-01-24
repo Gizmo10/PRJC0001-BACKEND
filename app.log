@@ -179,3 +179,334 @@
 [2024-01-18 13:11:06,108] http-nio-8080-exec-3 PatientLogin.setPasswordHash(PatientLogin.java:74) [INFO ] - Generating hash for user: '7408284003077'
 [2024-01-18 13:11:06,127] http-nio-8080-exec-3 PatientLogin.setPasswordHash(PatientLogin.java:83) [INFO ] - Successfully generated hash for user: '7408284003077
 [2024-01-18 13:11:06,147] http-nio-8080-exec-3 AddPatientCredentials.addCredentials(AddPatientCredentials.java:41) [INFO ] - Successfully added credentials for user: '7408284003077'
+[2024-01-22 09:55:34,542] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:30) [ERROR] - Cannot invoke "org.springframework.web.multipart.MultipartFile.getBytes()" because "file" is null
+[2024-01-22 10:05:30,037] http-nio-8080-exec-4 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - [B@48bc5ff3
+[2024-01-22 10:13:58,184] http-nio-8080-exec-7 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - [B@41c79a70
+[2024-01-22 10:16:35,534] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - [B@76e110bf
+[2024-01-22 10:17:36,103] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - [B@1a3832e9
+[2024-01-22 10:18:51,425] http-nio-8080-exec-6 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - [B@1cf09ae5
+[2024-01-22 10:20:56,605] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - [B@5c7985f2
+[2024-01-22 10:20:56,605] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - Wanda
+[2024-01-22 10:26:47,201] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - [B@3b68aa43
+[2024-01-22 10:26:47,201] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2f26084b
+[2024-01-22 12:27:27,693] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:55) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-22 12:27:27,708] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:66) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-01-22 12:27:27,709] Test worker PatientLogin.setPasswordHash(PatientLogin.java:74) [INFO ] - Generating hash for user: '6910056332070'
+[2024-01-22 12:27:27,721] Test worker PatientLogin.setPasswordHash(PatientLogin.java:83) [INFO ] - Successfully generated hash for user: '6910056332070
+[2024-01-22 12:27:27,746] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:55) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-22 12:27:27,748] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:66) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-01-22 12:27:27,749] Test worker PatientLogin.setPasswordHash(PatientLogin.java:74) [INFO ] - Generating hash for user: '6910056332070'
+[2024-01-22 12:27:27,750] Test worker PatientLogin.setPasswordHash(PatientLogin.java:83) [INFO ] - Successfully generated hash for user: '6910056332070
+[2024-01-22 12:27:27,753] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:55) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-22 12:27:27,754] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:66) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-01-22 12:27:27,757] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:55) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-22 12:27:27,758] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:66) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-01-22 12:27:27,761] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:55) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-22 12:27:27,762] Test worker PatientLogin.setPasswordSalt(PatientLogin.java:66) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-01-22 14:21:13,785] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - Registering user: '640513'
+[2024-01-22 14:21:13,785] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 14:21:13,785] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 14:21:13,785] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 14:21:13,785] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 14:55:46,615] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - Registering user: '6405134334088'
+[2024-01-22 14:55:46,646] http-nio-8080-exec-2 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 14:55:46,646] http-nio-8080-exec-2 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 14:55:46,662] http-nio-8080-exec-2 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 14:55:46,662] http-nio-8080-exec-2 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:00:01,962] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - 6405134334088
+[2024-01-22 15:00:01,962] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - Steve
+[2024-01-22 15:00:01,962] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - Benoni
+[2024-01-22 15:00:01,962] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - Gauteng
+[2024-01-22 15:00:01,962] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:29) [INFO ] - Registering user: '6405134334088'
+[2024-01-22 15:00:01,962] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:00:01,962] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:00:01,962] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:00:01,962] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:14:30,131] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - 6405133344088
+[2024-01-22 15:14:30,133] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - Test
+[2024-01-22 15:14:30,133] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - Cape Town
+[2024-01-22 15:14:30,133] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - Western Cape
+[2024-01-22 15:14:30,133] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:30) [INFO ] - [B@1aa6b66e
+[2024-01-22 15:14:30,133] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:34) [INFO ] - Registering user: '6405133344088'
+[2024-01-22 15:14:30,133] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:14:30,133] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:14:30,149] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:14:30,149] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:14:30,149] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:47) [WARN ] - Invalid registration details user: '6405133344088
+[2024-01-22 15:14:31,133] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - 6405133344088
+[2024-01-22 15:14:31,134] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - Test
+[2024-01-22 15:14:31,134] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - Cape Town
+[2024-01-22 15:14:31,134] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - Western Cape
+[2024-01-22 15:14:31,134] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:30) [INFO ] - [B@8f15a40
+[2024-01-22 15:14:31,134] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:34) [INFO ] - Registering user: '6405133344088'
+[2024-01-22 15:14:31,134] http-nio-8080-exec-2 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:14:31,134] http-nio-8080-exec-2 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:14:31,134] http-nio-8080-exec-2 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:14:31,134] http-nio-8080-exec-2 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:14:31,134] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:47) [WARN ] - Invalid registration details user: '6405133344088
+[2024-01-22 15:14:31,823] http-nio-8080-exec-3 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - 6405133344088
+[2024-01-22 15:14:31,824] http-nio-8080-exec-3 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - Test
+[2024-01-22 15:14:31,824] http-nio-8080-exec-3 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - Cape Town
+[2024-01-22 15:14:31,824] http-nio-8080-exec-3 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - Western Cape
+[2024-01-22 15:14:31,825] http-nio-8080-exec-3 RegisterPatient.registerPatient(RegisterPatient.java:30) [INFO ] - [B@2c4f1bef
+[2024-01-22 15:14:31,825] http-nio-8080-exec-3 RegisterPatient.registerPatient(RegisterPatient.java:34) [INFO ] - Registering user: '6405133344088'
+[2024-01-22 15:14:31,827] http-nio-8080-exec-3 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:14:31,828] http-nio-8080-exec-3 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:14:31,829] http-nio-8080-exec-3 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:14:31,830] http-nio-8080-exec-3 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-22 15:14:31,830] http-nio-8080-exec-3 RegisterPatient.registerPatient(RegisterPatient.java:47) [WARN ] - Invalid registration details user: '6405133344088
+[2024-01-23 15:11:18,223] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - [B@448e2124
+[2024-01-23 15:11:18,239] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:31) [INFO ] - Registering user: '6405133344088'
+[2024-01-23 15:11:18,258] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:11:18,258] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:11:18,258] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:11:18,258] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:11:53,085] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:31) [INFO ] - Registering user: '6405134334088'
+[2024-01-23 15:11:53,087] http-nio-8080-exec-2 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:11:53,088] http-nio-8080-exec-2 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:11:53,089] http-nio-8080-exec-2 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:11:53,091] http-nio-8080-exec-2 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:33:35,118] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - idF
+[2024-01-23 15:33:35,118] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - text/plain
+[2024-01-23 15:33:35,118] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - 2123
+[2024-01-23 15:33:35,118] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - COVER LETTER.txt
+[2024-01-23 15:33:35,118] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:32) [INFO ] - [B@ff66097
+[2024-01-23 15:33:35,118] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:36) [INFO ] - Registering user: '6405133344088'
+[2024-01-23 15:33:35,134] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:33:35,134] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:33:35,134] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:33:35,134] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:36:48,961] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - idF
+[2024-01-23 15:36:48,963] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - text/plain
+[2024-01-23 15:36:48,963] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - 2123
+[2024-01-23 15:36:48,964] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - COVER LETTER.txt
+[2024-01-23 15:36:48,968] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:32) [INFO ] - [B@65aeecbc
+[2024-01-23 15:36:48,969] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:36) [INFO ] - Registering user: '6405133344088'
+[2024-01-23 15:36:48,971] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:36:48,973] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:36:48,975] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:36:48,978] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:36:48,979] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:49) [WARN ] - Invalid registration details user: '6405133344088
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - idF
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - text/plain
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - 2123
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - COVER LETTER.txt
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:32) [INFO ] - [B@5ab6fb6
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:36) [INFO ] - Registering user: '6405133344088'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:92) [INFO ] - Name: 'true'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:94) [INFO ] - Surname: 'true'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:96) [INFO ] - Id: 'true'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:99) [INFO ] - Birthdate: 'true'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:101) [INFO ] - Birthdate matches id: 'true'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:104) [INFO ] - Cellphone: 'false'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:106) [INFO ] - Email: 'true'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:108) [INFO ] - Password: 'true'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:110) [INFO ] - Repassword: 'true'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:112) [INFO ] - Password match: 'true'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:114) [INFO ] - Street: 'false'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:116) [INFO ] - Suburb: 'true'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:118) [INFO ] - City: 'true'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:120) [INFO ] - Province: 'true'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:122) [INFO ] - Postal: 'false'
+[2024-01-23 15:49:37,282] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:49) [WARN ] - Invalid registration details user: '6405133344088
+[2024-01-23 16:00:55,024] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - idF
+[2024-01-23 16:00:55,026] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - text/plain
+[2024-01-23 16:00:55,027] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - 2123
+[2024-01-23 16:00:55,028] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - COVER LETTER.txt
+[2024-01-23 16:00:55,028] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:29) [INFO ] - null
+[2024-01-23 16:00:55,028] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:30) [INFO ] - null
+[2024-01-23 16:00:55,029] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:31) [INFO ] - null
+[2024-01-23 16:00:55,032] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:35) [INFO ] - [B@742dc6ea
+[2024-01-23 16:00:55,033] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:39) [INFO ] - Registering user: '6405133344088'
+[2024-01-23 16:00:55,034] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:92) [INFO ] - Name: 'true'
+[2024-01-23 16:00:55,035] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:94) [INFO ] - Surname: 'true'
+[2024-01-23 16:00:55,036] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:96) [INFO ] - Id: 'true'
+[2024-01-23 16:00:55,037] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:99) [INFO ] - Birthdate: 'true'
+[2024-01-23 16:00:55,037] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:101) [INFO ] - Birthdate matches id: 'true'
+[2024-01-23 16:00:55,039] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 16:00:55,040] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 16:00:55,041] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:104) [INFO ] - Cellphone: 'false'
+[2024-01-23 16:00:55,042] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:106) [INFO ] - Email: 'true'
+[2024-01-23 16:00:55,042] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:108) [INFO ] - Password: 'true'
+[2024-01-23 16:00:55,043] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:110) [INFO ] - Repassword: 'true'
+[2024-01-23 16:00:55,044] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:112) [INFO ] - Password match: 'true'
+[2024-01-23 16:00:55,045] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 16:00:55,046] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:114) [INFO ] - Street: 'false'
+[2024-01-23 16:00:55,047] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:116) [INFO ] - Suburb: 'true'
+[2024-01-23 16:00:55,048] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:118) [INFO ] - City: 'true'
+[2024-01-23 16:00:55,048] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:120) [INFO ] - Province: 'true'
+[2024-01-23 16:00:55,050] http-nio-8080-exec-1 ValidateInput.validateRegistrationFormInput(ValidateInput.java:63) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-01-23 16:00:55,050] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:122) [INFO ] - Postal: 'false'
+[2024-01-23 16:00:55,052] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:124) [INFO ] - File: 'true'
+[2024-01-23 16:00:55,053] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:52) [WARN ] - Invalid registration details user: '6405133344088
+[2024-01-23 16:07:09,010] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - idF
+[2024-01-23 16:07:09,010] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - text/plain
+[2024-01-23 16:07:09,010] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - 2123
+[2024-01-23 16:07:09,010] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - COVER LETTER.txt
+[2024-01-23 16:07:09,010] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:29) [INFO ] - 0665433322
+[2024-01-23 16:07:09,010] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:30) [INFO ] - 2001
+[2024-01-23 16:07:09,010] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:31) [INFO ] - 13 Mealie Street
+[2024-01-23 16:07:09,010] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:35) [INFO ] - [B@66466449
+[2024-01-23 16:07:09,010] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:39) [INFO ] - Registering user: '6405133344088'
+[2024-01-23 16:07:09,010] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:92) [INFO ] - Name: 'true'
+[2024-01-23 16:07:09,010] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:94) [INFO ] - Surname: 'true'
+[2024-01-23 16:07:09,010] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:96) [INFO ] - Id: 'true'
+[2024-01-23 16:07:09,010] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:99) [INFO ] - Birthdate: 'true'
+[2024-01-23 16:07:09,026] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:101) [INFO ] - Birthdate matches id: 'true'
+[2024-01-23 16:07:09,026] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:104) [INFO ] - Cellphone: 'true'
+[2024-01-23 16:07:09,026] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:106) [INFO ] - Email: 'true'
+[2024-01-23 16:07:09,026] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:108) [INFO ] - Password: 'true'
+[2024-01-23 16:07:09,026] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:110) [INFO ] - Repassword: 'true'
+[2024-01-23 16:07:09,026] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:112) [INFO ] - Password match: 'true'
+[2024-01-23 16:07:09,026] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:114) [INFO ] - Street: 'true'
+[2024-01-23 16:07:09,026] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:116) [INFO ] - Suburb: 'true'
+[2024-01-23 16:07:09,026] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:118) [INFO ] - City: 'true'
+[2024-01-23 16:07:09,026] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:120) [INFO ] - Province: 'true'
+[2024-01-23 16:07:09,026] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:122) [INFO ] - Postal: 'true'
+[2024-01-23 16:07:09,026] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:124) [INFO ] - File: 'true'
+[2024-01-23 16:07:09,427] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:45) [ERROR] - Failed registering user: '6405133344088'
+[2024-01-23 16:07:09,427] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:49) [INFO ] - Successfully registered user: '6405133344088'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - idF
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - text/plain
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - 2123
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - COVER LETTER.txt
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:29) [INFO ] - 0665433322
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:30) [INFO ] - 2001
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:31) [INFO ] - 13 Mealie Street
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:35) [INFO ] - [B@366c8323
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:39) [INFO ] - Registering user: '6405133344088'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:92) [INFO ] - Name: 'true'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:94) [INFO ] - Surname: 'true'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:96) [INFO ] - Id: 'true'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:99) [INFO ] - Birthdate: 'true'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:101) [INFO ] - Birthdate matches id: 'true'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:104) [INFO ] - Cellphone: 'true'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:106) [INFO ] - Email: 'true'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:108) [INFO ] - Password: 'true'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:110) [INFO ] - Repassword: 'true'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:112) [INFO ] - Password match: 'true'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:114) [INFO ] - Street: 'true'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:116) [INFO ] - Suburb: 'true'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:118) [INFO ] - City: 'true'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:120) [INFO ] - Province: 'true'
+[2024-01-23 16:08:47,804] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:122) [INFO ] - Postal: 'true'
+[2024-01-23 16:08:47,820] http-nio-8080-exec-2 ValidateInput.validateRegistrationDetails(ValidateInput.java:124) [INFO ] - File: 'true'
+[2024-01-23 16:08:48,001] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:45) [ERROR] - Failed registering user: '6405133344088'
+[2024-01-23 16:08:48,016] http-nio-8080-exec-2 RegisterPatient.registerPatient(RegisterPatient.java:49) [INFO ] - Successfully registered user: '6405133344088'
+[2024-01-23 16:10:31,232] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - idF
+[2024-01-23 16:10:31,234] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - text/plain
+[2024-01-23 16:10:31,235] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - 2123
+[2024-01-23 16:10:31,236] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - COVER LETTER.txt
+[2024-01-23 16:10:31,236] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:29) [INFO ] - 0665433322
+[2024-01-23 16:10:31,237] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:30) [INFO ] - 2001
+[2024-01-23 16:10:31,238] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:31) [INFO ] - 13 Mealie Street
+[2024-01-23 16:13:29,121] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - idF
+[2024-01-23 16:13:29,121] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - text/plain
+[2024-01-23 16:13:29,121] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - 2123
+[2024-01-23 16:13:29,121] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - COVER LETTER.txt
+[2024-01-23 16:13:29,121] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:29) [INFO ] - 0665433322
+[2024-01-23 16:13:29,121] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:30) [INFO ] - 2001
+[2024-01-23 16:13:29,121] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:31) [INFO ] - 13 Mealie Street
+[2024-01-23 16:13:29,121] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:32) [INFO ] - null
+[2024-01-23 16:13:29,137] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:36) [INFO ] - [B@742dc6ea
+[2024-01-23 16:19:53,861] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - idF
+[2024-01-23 16:19:53,865] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - text/plain
+[2024-01-23 16:19:53,866] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - 2123
+[2024-01-23 16:19:53,868] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - COVER LETTER.txt
+[2024-01-23 16:19:53,869] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:29) [INFO ] - 0665433322
+[2024-01-23 16:19:53,871] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:30) [INFO ] - 2001
+[2024-01-23 16:19:53,873] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:31) [INFO ] - 13 Mealie Street
+[2024-01-23 16:21:24,031] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - idF
+[2024-01-23 16:21:24,033] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - text/plain
+[2024-01-23 16:21:24,034] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - 2123
+[2024-01-23 16:21:24,034] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - COVER LETTER.txt
+[2024-01-23 16:21:24,035] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:29) [INFO ] - 0665433322
+[2024-01-23 16:21:24,035] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:30) [INFO ] - 2001
+[2024-01-23 16:21:24,036] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:31) [INFO ] - 13 Mealie Street
+[2024-01-23 16:21:24,039] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:39) [INFO ] - [B@304fb38d
+[2024-01-23 16:22:26,819] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:25) [INFO ] - idF
+[2024-01-23 16:22:26,821] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:26) [INFO ] - text/plain
+[2024-01-23 16:22:26,822] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:27) [INFO ] - 2123
+[2024-01-23 16:22:26,823] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:28) [INFO ] - COVER LETTER.txt
+[2024-01-23 16:22:26,824] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:29) [INFO ] - 0665433322
+[2024-01-23 16:22:26,824] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:30) [INFO ] - 2001
+[2024-01-23 16:22:26,824] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:31) [INFO ] - 13 Mealie Street
+[2024-01-23 16:22:26,828] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:39) [INFO ] - [B@78606ecf
+[2024-01-23 16:22:26,829] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:41) [INFO ] - Registering user: '6405133344088'
+[2024-01-23 16:22:26,829] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:92) [INFO ] - Name: 'true'
+[2024-01-23 16:22:26,830] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:94) [INFO ] - Surname: 'true'
+[2024-01-23 16:22:26,831] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:96) [INFO ] - Id: 'true'
+[2024-01-23 16:22:26,833] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:99) [INFO ] - Birthdate: 'true'
+[2024-01-23 16:22:26,834] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:101) [INFO ] - Birthdate matches id: 'true'
+[2024-01-23 16:22:26,834] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:104) [INFO ] - Cellphone: 'true'
+[2024-01-23 16:22:26,835] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:106) [INFO ] - Email: 'true'
+[2024-01-23 16:22:26,837] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:108) [INFO ] - Password: 'true'
+[2024-01-23 16:22:26,838] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:110) [INFO ] - Repassword: 'true'
+[2024-01-23 16:22:26,839] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:112) [INFO ] - Password match: 'true'
+[2024-01-23 16:22:26,840] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:114) [INFO ] - Street: 'true'
+[2024-01-23 16:22:26,841] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:116) [INFO ] - Suburb: 'true'
+[2024-01-23 16:22:26,842] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:118) [INFO ] - City: 'true'
+[2024-01-23 16:22:26,843] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:120) [INFO ] - Province: 'true'
+[2024-01-23 16:22:26,843] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:122) [INFO ] - Postal: 'true'
+[2024-01-23 16:22:26,844] http-nio-8080-exec-1 ValidateInput.validateRegistrationDetails(ValidateInput.java:124) [INFO ] - File: 'true'
+[2024-01-23 16:22:27,255] http-nio-8080-exec-1 RegisterPatient.registerPatient(RegisterPatient.java:51) [INFO ] - Successfully registered user: '6405133344088'
+[2024-01-23 16:22:27,400] http-nio-8080-exec-2 AddPatientCredentials.addCredentials(AddPatientCredentials.java:28) [INFO ] - Adding credentials for user: '6405133344088'
+[2024-01-23 16:22:27,400] http-nio-8080-exec-2 PatientLogin.setPasswordSalt(PatientLogin.java:55) [INFO ] - Generating salt for user: '6405133344088'
+[2024-01-23 16:22:27,400] http-nio-8080-exec-2 PatientLogin.setPasswordSalt(PatientLogin.java:66) [INFO ] - Successfully generated salt for user: '6405133344088'
+[2024-01-23 16:22:27,400] http-nio-8080-exec-2 PatientLogin.setPasswordHash(PatientLogin.java:74) [INFO ] - Generating hash for user: '6405133344088'
+[2024-01-23 16:22:27,416] http-nio-8080-exec-2 PatientLogin.setPasswordHash(PatientLogin.java:83) [INFO ] - Successfully generated hash for user: '6405133344088
+[2024-01-23 16:22:27,455] http-nio-8080-exec-2 AddPatientCredentials.addCredentials(AddPatientCredentials.java:41) [INFO ] - Successfully added credentials for user: '6405133344088'
+[2024-01-23 21:10:01,045] Test worker HashPassword.createPasswordSalt(HashPassword.java:24) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-23 21:10:01,067] Test worker HashPassword.createPasswordSalt(HashPassword.java:35) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-01-23 21:10:01,069] Test worker HashPassword.createPasswordHash(HashPassword.java:43) [INFO ] - Generating hash for user: '6910056332070'
+[2024-01-23 21:10:01,090] Test worker HashPassword.createPasswordHash(HashPassword.java:52) [INFO ] - Successfully generated hash for user: '6910056332070
+[2024-01-23 21:10:01,131] Test worker HashPassword.createPasswordSalt(HashPassword.java:24) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-23 21:10:01,132] Test worker HashPassword.createPasswordSalt(HashPassword.java:35) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-01-23 21:10:01,134] Test worker HashPassword.createPasswordHash(HashPassword.java:43) [INFO ] - Generating hash for user: '6910056332070'
+[2024-01-23 21:10:01,136] Test worker HashPassword.createPasswordHash(HashPassword.java:52) [INFO ] - Successfully generated hash for user: '6910056332070
+[2024-01-23 21:10:01,146] Test worker HashPassword.createPasswordSalt(HashPassword.java:24) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-23 21:10:01,148] Test worker HashPassword.createPasswordSalt(HashPassword.java:35) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-01-23 21:10:01,156] Test worker HashPassword.createPasswordSalt(HashPassword.java:24) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-23 21:10:01,157] Test worker HashPassword.createPasswordSalt(HashPassword.java:35) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-01-23 21:10:01,164] Test worker HashPassword.createPasswordSalt(HashPassword.java:24) [INFO ] - Generating salt for user: '6910056332070'
+[2024-01-23 21:10:01,167] Test worker HashPassword.createPasswordSalt(HashPassword.java:35) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-01-24 11:45:16,351] http-nio-8080-exec-3 AuthenticatePatient.authenticate(AuthenticatePatient.java:28) [INFO ] - Authenticating user: '910657900612367'
+[2024-01-24 11:45:16,355] http-nio-8080-exec-3 AuthenticatePatient.authenticate(AuthenticatePatient.java:48) [WARN ] - Invalid credentials user: '910657900612367'
+[2024-01-24 11:45:26,817] http-nio-8080-exec-4 AuthenticatePatient.authenticate(AuthenticatePatient.java:28) [INFO ] - Authenticating user: '910657900612367'
+[2024-01-24 11:45:26,818] http-nio-8080-exec-4 AuthenticatePatient.authenticate(AuthenticatePatient.java:48) [WARN ] - Invalid credentials user: '910657900612367'
+[2024-01-24 11:45:37,431] http-nio-8080-exec-6 AuthenticatePatient.authenticate(AuthenticatePatient.java:28) [INFO ] - Authenticating user: '910657900612367'
+[2024-01-24 11:45:37,433] http-nio-8080-exec-6 AuthenticatePatient.authenticate(AuthenticatePatient.java:48) [WARN ] - Invalid credentials user: '910657900612367'
+[2024-01-24 11:45:40,054] http-nio-8080-exec-5 AuthenticatePatient.authenticate(AuthenticatePatient.java:28) [INFO ] - Authenticating user: '910657900612367'
+[2024-01-24 11:45:40,055] http-nio-8080-exec-5 AuthenticatePatient.authenticate(AuthenticatePatient.java:48) [WARN ] - Invalid credentials user: '910657900612367'
+[2024-01-24 11:47:33,555] http-nio-8080-exec-9 AuthenticatePatient.authenticate(AuthenticatePatient.java:28) [INFO ] - Authenticating user: '910657900612'
+[2024-01-24 11:47:33,565] http-nio-8080-exec-9 AuthenticatePatient.authenticate(AuthenticatePatient.java:48) [WARN ] - Invalid credentials user: '910657900612'
+[2024-01-24 11:51:02,377] http-nio-8080-exec-1 AuthenticatePatient.authenticate(AuthenticatePatient.java:28) [INFO ] - Authenticating user: '9106579006123'
+[2024-01-24 11:51:02,960] http-nio-8080-exec-1 HashPassword.createPasswordHash(HashPassword.java:43) [INFO ] - Generating hash for user: '9106579006123'
+[2024-01-24 11:51:02,974] http-nio-8080-exec-1 HashPassword.createPasswordHash(HashPassword.java:52) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-01-24 11:51:02,975] http-nio-8080-exec-1 AuthenticatePatient.authenticate(AuthenticatePatient.java:43) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-01-24 11:54:05,174] http-nio-8080-exec-4 AuthenticatePatient.authenticate(AuthenticatePatient.java:28) [INFO ] - Authenticating user: '9106579006123'
+[2024-01-24 11:54:05,727] http-nio-8080-exec-4 HashPassword.createPasswordHash(HashPassword.java:43) [INFO ] - Generating hash for user: '9106579006123'
+[2024-01-24 11:54:05,751] http-nio-8080-exec-4 HashPassword.createPasswordHash(HashPassword.java:52) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-01-24 11:54:05,758] http-nio-8080-exec-4 AuthenticatePatient.authenticate(AuthenticatePatient.java:45) [WARN ] - Failed to authenticate user: '9106579006123'
+[2024-01-24 12:09:26,767] http-nio-8080-exec-2 AddPatientRegistrationDetails.registerPatient(AddPatientRegistrationDetails.java:28) [INFO ] - Registering user: '9303102553090'
+[2024-01-24 12:09:27,063] http-nio-8080-exec-2 AddPatientRegistrationDetails.registerPatient(AddPatientRegistrationDetails.java:37) [INFO ] - Successfully registered user: '9303102553090'
+[2024-01-24 12:11:30,355] http-nio-8080-exec-5 AddPatientRegistrationDetails.registerPatient(AddPatientRegistrationDetails.java:28) [INFO ] - Registering user: '9303102553090'
+[2024-01-24 12:11:30,359] http-nio-8080-exec-5 AddPatientRegistrationDetails.registerPatient(AddPatientRegistrationDetails.java:39) [WARN ] - Invalid registration details user: '9303102553090'
+[2024-01-24 12:18:47,010] http-nio-8080-exec-1 AuthenticatePatient.addCredentials(AuthenticatePatient.java:57) [INFO ] - Adding credentials for user: '9303102553090'
+[2024-01-24 12:18:47,012] http-nio-8080-exec-1 HashPassword.createPasswordSalt(HashPassword.java:24) [INFO ] - Generating salt for user: '9303102553090'
+[2024-01-24 12:18:47,013] http-nio-8080-exec-1 HashPassword.createPasswordSalt(HashPassword.java:35) [INFO ] - Successfully generated salt for user: '9303102553090'
+[2024-01-24 12:18:47,013] http-nio-8080-exec-1 HashPassword.createPasswordHash(HashPassword.java:43) [INFO ] - Generating hash for user: '9303102553090'
+[2024-01-24 12:18:47,026] http-nio-8080-exec-1 HashPassword.createPasswordHash(HashPassword.java:52) [INFO ] - Successfully generated hash for user: '9303102553090
+[2024-01-24 12:18:47,337] http-nio-8080-exec-1 AuthenticatePatient.addCredentials(AuthenticatePatient.java:69) [INFO ] - Successfully added credentials for user: '9303102553090'
+[2024-01-24 12:20:19,701] http-nio-8080-exec-4 AuthenticatePatient.addCredentials(AuthenticatePatient.java:57) [INFO ] - Adding credentials for user: '930310255309y'
+[2024-01-24 12:20:19,717] http-nio-8080-exec-4 AuthenticatePatient.addCredentials(AuthenticatePatient.java:71) [WARN ] - Invalid credential user: '9303102553090'
+[2024-01-24 12:21:10,547] http-nio-8080-exec-6 AuthenticatePatient.addCredentials(AuthenticatePatient.java:57) [INFO ] - Adding credentials for user: '9303102553090'
+[2024-01-24 12:21:10,547] http-nio-8080-exec-6 HashPassword.createPasswordSalt(HashPassword.java:24) [INFO ] - Generating salt for user: '9303102553090'
+[2024-01-24 12:21:10,563] http-nio-8080-exec-6 HashPassword.createPasswordSalt(HashPassword.java:35) [INFO ] - Successfully generated salt for user: '9303102553090'
+[2024-01-24 12:21:10,563] http-nio-8080-exec-6 HashPassword.createPasswordHash(HashPassword.java:43) [INFO ] - Generating hash for user: '9303102553090'
+[2024-01-24 12:21:10,578] http-nio-8080-exec-6 HashPassword.createPasswordHash(HashPassword.java:52) [INFO ] - Successfully generated hash for user: '9303102553090
+[2024-01-24 12:21:10,984] http-nio-8080-exec-6 AuthenticatePatient.addCredentials(AuthenticatePatient.java:69) [INFO ] - Successfully added credentials for user: '9303102553090'
