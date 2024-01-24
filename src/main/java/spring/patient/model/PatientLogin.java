@@ -1,11 +1,10 @@
 package spring.patient.model;
 import jakarta.persistence.*;
-import jakarta.xml.bind.DatatypeConverter;
 import lombok.Data;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.springframework.stereotype.Component;
 
 @Entity
+@Component
 @Table(name="patient_login_credentials")
 @Data
 public class PatientLogin {
@@ -18,8 +17,6 @@ public class PatientLogin {
     private String passwordSalt;
     @Column(name="hash")
     private String passwordHash;
-
-    private static final Logger log = LogManager.getLogger("patientLogin");
 
     public PatientLogin() {}
 

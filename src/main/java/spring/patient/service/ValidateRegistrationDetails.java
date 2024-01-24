@@ -105,11 +105,12 @@ public class ValidateRegistrationDetails {
         boolean isValidCity = this.validateRegistrationFormInput(patientDetails.getCity(),this.getGenericPattern());
         boolean isValidProvince = this.validateRegistrationFormInput(patientDetails.getProvince(),this.getGenericPattern());
         boolean isValidPostalCode = this.validateRegistrationFormInput(patientDetails.getCode(),this.getPostalCodePattern());
-        boolean isValidFile = patientDetails.getIdF().getSize() > 0;
+        boolean isValidIdF = patientDetails.getIdF().getSize() > 0;
+        boolean isValidSelfieF = patientDetails.getSelfieF().getSize() > 0;
 
         return isValidName && isValidSurname && isValidId && isValidBirthdate && idMatchesBirthdate && isValidCellphone
                 && isValidEmail && isValidPassword && isValidRepassword && passwordsMatch && isValidStreet && isValidSuburb
-                && isValidCity && isValidProvince && isValidPostalCode && isValidFile;
+                && isValidCity && isValidProvince && isValidPostalCode && isValidIdF && isValidSelfieF;
     }
 
 }

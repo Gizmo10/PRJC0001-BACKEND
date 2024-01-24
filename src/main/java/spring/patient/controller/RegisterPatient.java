@@ -12,7 +12,7 @@ public class RegisterPatient {
     @Autowired
     AddPatientRegistrationDetails addPatientRegistrationDetails;
 
-    @PostMapping("/registerPatient")
+    @PostMapping("/register")
     public boolean registerPatient(@ModelAttribute PatientRegistration regDetails) {
        return addPatientRegistrationDetails.registerPatient(regDetails);
     }

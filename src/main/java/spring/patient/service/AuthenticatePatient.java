@@ -63,7 +63,7 @@ public class AuthenticatePatient {
             try {
                 patientLoginDao.save(patient);
             } catch(Exception e) {
-                log.error(String.format("Failed to add credentials for user: '%s",patient.getId()),e.getMessage());
+                log.error(String.format("Failed to add credentials for user: '%s'",patient.getId()),e.getMessage());
                 e.printStackTrace();
             }
             log.info(String.format("Successfully added credentials for user: '%s'",patient.getId()));

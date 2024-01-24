@@ -2,12 +2,7 @@ package spring.patient.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
-import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.LogManager;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.multipart.MultipartFile;
 
 @Entity
@@ -47,13 +42,15 @@ public class PatientRegistration {
     private byte[] idCopy;
     @Transient
     private MultipartFile idF;
-
+    @Column(name="selfie")
+    @Lob
+    private byte[] selfie;
     @Transient
-    private static final Logger log = LogManager.getLogger("patientLogin");
+    private MultipartFile selfieF;
 
     public PatientRegistration(String name, String surname, String id, String birthdate,String cellphone,
                                String email, String password, String rePassword,String street, String suburb,
-                               String city, String code, String province, MultipartFile idF) {
+                               String city, String code, String province, MultipartFile idF, MultipartFile selfieF) {
         this.name = name;
         this.surname = surname;
         this.id = id;
@@ -68,5 +65,6 @@ public class PatientRegistration {
         this.province = province;
         this.code = code;
         this.idF = idF;
+        this.selfieF = selfieF;
         }
 }

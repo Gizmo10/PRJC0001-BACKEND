@@ -3,10 +3,11 @@ package spring.patient.service;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import spring.patient.data.PatientRegistrationDao;
 import spring.patient.model.PatientRegistration;
 
-
+@Service
 public class AddPatientRegistrationDetails {
     @Autowired
     ValidateRegistrationDetails inputValidator;
@@ -19,6 +20,7 @@ public class AddPatientRegistrationDetails {
 
         try{
             registrationDetails.setIdCopy(registrationDetails.getIdF().getBytes());
+            registrationDetails.setSelfie(registrationDetails.getSelfieF().getBytes());
         } catch(Exception e) {
             log.error(e.getMessage());
             e.printStackTrace();

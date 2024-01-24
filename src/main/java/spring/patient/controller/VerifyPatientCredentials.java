@@ -11,7 +11,7 @@ public class VerifyPatientCredentials {
     @Autowired
     private AuthenticatePatient authenticatePatient;
 
-    @GetMapping("/loginUser")
+    @GetMapping("/authenticate")
     public boolean verifyCredentials(@RequestParam("id") String patientId, @RequestParam("password") String patientPassword) {
        return authenticatePatient.authenticate(patientId,patientPassword);
     }
