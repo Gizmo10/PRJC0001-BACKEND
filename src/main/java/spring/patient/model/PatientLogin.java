@@ -17,6 +17,8 @@ public class PatientLogin {
     private String passwordSalt;
     @Column(name="hash")
     private String passwordHash;
+    @Column(name="reset_password_token")
+    private String resetToken;
 
     public PatientLogin() {}
 

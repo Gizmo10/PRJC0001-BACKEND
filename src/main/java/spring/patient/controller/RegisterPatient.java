@@ -3,18 +3,18 @@ package spring.patient.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import spring.patient.model.PatientRegistration;
-import spring.patient.service.AddPatientRegistrationDetails;
+import spring.patient.service.PatientRegistrationService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:3001")
 @RestController
 @RequestMapping("patient")
 public class RegisterPatient {
     @Autowired
-    AddPatientRegistrationDetails addPatientRegistrationDetails;
+    PatientRegistrationService patientRegistrationService;
 
     @PostMapping("/register")
     public boolean registerPatient(@ModelAttribute PatientRegistration regDetails) {
-       return addPatientRegistrationDetails.registerPatient(regDetails);
+       return patientRegistrationService.registerPatient(regDetails);
     }
 }
 

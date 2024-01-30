@@ -1,19 +1,18 @@
 package spring.patient.service;
 
 import org.junit.jupiter.api.Test;
-import spring.patient.model.PatientLogin;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class HashPasswordTest {
-    private HashPassword patient = new HashPassword();
+class PatientLoginServiceTest {
+    private PatientLoginService patient = new PatientLoginService();
 
     @Test
     public void saltCannotBeEmpty(){
-       String salt = patient.createPasswordSalt("6910056332070");
+        String salt = patient.createPasswordSalt("6910056332070");
         assertNotNull(salt);
     }
 

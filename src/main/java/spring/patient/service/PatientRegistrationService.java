@@ -3,15 +3,14 @@ package spring.patient.service;
 import lombok.Getter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.springframework.stereotype.Service;
-import org.springframework.web.multipart.MultipartFile;
+import org.springframework.beans.factory.annotation.Autowired;
+import spring.patient.data.PatientRegistrationDao;
 import spring.patient.model.PatientRegistration;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-@Service
-public class ValidateRegistrationDetails {
+public class PatientRegistrationService {
     @Getter
     private String namePattern;
     @Getter
@@ -36,9 +35,11 @@ public class ValidateRegistrationDetails {
     private String postalCodePattern;
     @Getter
     private String genericPattern;
+    @Autowired
+    PatientRegistrationDao patientRegistrationDao;
     private static final Logger log = LogManager.getLogger("patientLogin");
 
-    public ValidateRegistrationDetails() {
+    public PatientRegistrationService() {
         this.namePattern = "^[A-Z]([a-z]{2,30})$";
         this.surnamePattern = "^[A-Z][a-z]{0,20}(([\s | -][A-Z][a-z]{2,20}){0,2})$";
         this.idPattern = "^[0-9]{13}$";
@@ -52,7 +53,6 @@ public class ValidateRegistrationDetails {
         this.streetNamePattern = "^[0-9]{1,6}[A-Z | a-z]{0,2}((\s[A-Z][a-z]{2,20}){1,4})$";
         this.postalCodePattern = "^[0-9]{4}$";
     }
-
     public boolean validateRegistrationFormInput(String input, String regEx) {
         boolean valid = false;
         try{
@@ -113,4 +113,30 @@ public class ValidateRegistrationDetails {
                 && isValidCity && isValidProvince && isValidPostalCode && isValidIdF && isValidSelfieF;
     }
 
+    public boolean registerPatient(PatientRegistration registrationDetails) {
+        boolean registered = false;
+
+        try{
+            registrationDetails.setIdCopy(registrationDetails.getIdF().getBytes());
+            registrationDetails.setSelfie(registrationDetails.getSelfieF().getBytes());
+        } catch(Exception e) {
+            log.error(e.getMessage());
+            e.printStackTrace();
+        }
+
+        log.info(String.format("Registering user: '%s'",registrationDetails.getId()));
+        if(this.validateRegistrationDetails(registrationDetails)) {
+            try {
+                patientRegistrationDao.save(registrationDetails);
+                registered = true;
+            } catch(Exception e) {
+                log.error(String.format("Failed registering user: '%s'",registrationDetails.getId()),e.getMessage());
+                e.printStackTrace();
+            }
+            log.info(String.format("Successfully registered user: '%s'",registrationDetails.getId()));
+        } else {
+            log.warn(String.format("Invalid registration details user: '%s'",registrationDetails.getId()));
+        }
+        return registered;
+    }
 }
