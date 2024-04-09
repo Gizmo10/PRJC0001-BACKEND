@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a594e5e-f8ab-4145-9ce7-a73d55e0a2f7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/controller/CreateMedicalRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/controller/GetMedicalRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/data/MedicalRecordsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/model/MedicalRecords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/MedicalRecordsInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/MedicalRecordsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientLoginInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientRegistrationInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/controller/AddPatientCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/controller/AddPatientCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/controller/RegisterPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/controller/RegisterPatient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/controller/VerifyPatientCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/controller/VerifyPatientCredentials.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientLoginService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientRegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientRegistrationService.java" afterDir="false" />
     </list>
@@ -60,15 +72,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
