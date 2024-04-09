@@ -4,13 +4,16 @@ import lombok.Getter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import spring.patient.data.PatientRegistrationDao;
 import spring.patient.model.PatientRegistration;
 
+import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PatientRegistrationService {
+@Service("patientRegistrationService")
+public class PatientRegistrationService implements PatientRegistrationInterface{
     @Getter
     private String namePattern;
     @Getter
@@ -127,7 +130,7 @@ public class PatientRegistrationService {
         log.info(String.format("Registering user: '%s'",registrationDetails.getId()));
         if(this.validateRegistrationDetails(registrationDetails)) {
             try {
-                patientRegistrationDao.save(registrationDetails);
+                this.save(registrationDetails);
                 registered = true;
             } catch(Exception e) {
                 log.error(String.format("Failed registering user: '%s'",registrationDetails.getId()),e.getMessage());
@@ -138,5 +141,15 @@ public class PatientRegistrationService {
             log.warn(String.format("Invalid registration details user: '%s'",registrationDetails.getId()));
         }
         return registered;
+    }
+
+    @Override
+    public Optional<PatientRegistration> findByEmail(String email) {
+        return patientRegistrationDao.findByEmail(email);
+    }
+
+    @Override
+    public void save(PatientRegistration patient) {
+        patientRegistrationDao.save(patient);
     }
 }

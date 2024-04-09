@@ -4,14 +4,16 @@ import jakarta.xml.bind.DatatypeConverter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import spring.patient.data.PatientLoginDao;
 import spring.patient.model.PatientLogin;
 
 import java.security.MessageDigest;
+import java.util.Optional;
 import java.util.Random;
 
-
-public class PatientLoginService {
+@Service("patientLoginService")
+public class PatientLoginService implements PatientLoginInterface{
     @Autowired
     private PatientRegistrationService patientRegistrationService;
     @Autowired
@@ -62,7 +64,7 @@ public class PatientLoginService {
             patient.setPasswordHash(this.createPasswordHash(patientId,patientPassword,patient.getPasswordSalt()));
 
             try {
-                patientLoginDao.save(patient);
+                this.save(patient);
             } catch(Exception e) {
                 log.error(String.format("Failed to add credentials for user: '%s'",patient.getId()),e.getMessage());
                 e.printStackTrace();
@@ -112,5 +114,15 @@ public class PatientLoginService {
         }
         log.info(String.format("Successfully generated hash for user: '%s",id));
         return sha1;
+    }
+
+    @Override
+    public Optional<PatientLogin> findByResetToken(String resetToken) {
+        return patientLoginDao.findByResetToken(resetToken);
+    }
+
+    @Override
+    public void save(PatientLogin patient) {
+        patientLoginDao.save(patient);
     }
 }

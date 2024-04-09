@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import spring.patient.model.PatientRegistration;
 import spring.patient.service.PatientRegistrationService;
 
-@CrossOrigin(origins = "http://localhost:3001")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("patient")
 public class RegisterPatient {

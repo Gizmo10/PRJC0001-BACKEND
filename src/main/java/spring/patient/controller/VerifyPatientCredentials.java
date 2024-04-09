@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import spring.patient.service.PatientLoginService;
 
-@CrossOrigin(origins = "http://localhost:3001")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("patient")
 public class VerifyPatientCredentials {
