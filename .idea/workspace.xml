@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a594e5e-f8ab-4145-9ce7-a73d55e0a2f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/controller/CreateMedicalRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/controller/GetMedicalRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/data/MedicalRecordsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/model/MedicalRecords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/MedicalRecordsInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/MedicalRecordsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientLoginInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientRegistrationInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/controller/AddPatientCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/controller/AddPatientCredentials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/controller/RegisterPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/controller/RegisterPatient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/controller/VerifyPatientCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/controller/VerifyPatientCredentials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientLoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientRegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientRegistrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/service/FilteredSearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/FilteredSearchServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -89,7 +77,20 @@
       <recent name="spring.patient.service" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.FilteredSearchServiceImplTest">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring.patient.Application" />
+      <module name="PRJC0001-BACKEN.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.patient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AuthenticatePatientTest.authenticatesCredentialsSuccessfully" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,6 +105,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;spring.patient.service.AuthenticatePatientTest.authenticatesCredentialsSuccessfully&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FilteredSearchServiceImplTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;spring.patient.service.FilteredSearchServiceImplTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -161,6 +185,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FilteredSearchServiceImplTest" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Gradle.PatientRegistrationServiceTest" />
         <item itemvalue="Gradle.PatientLoginServiceTest" />
         <item itemvalue="Gradle.AuthenticatePatientTest.authenticatesCredentialsSuccessfully" />

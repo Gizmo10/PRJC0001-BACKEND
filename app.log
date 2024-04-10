@@ -1287,3 +1287,7 @@
 [2024-04-09 14:39:35,378] http-nio-8080-exec-7 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:61) [INFO ] - Search complete.
 [2024-04-09 14:39:42,069] http-nio-8080-exec-9 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:36) [INFO ] - Filter medical records search.
 [2024-04-09 14:39:42,070] http-nio-8080-exec-9 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:61) [INFO ] - Search complete.
+[2024-04-10 09:12:28,265] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-04-10 09:12:28,952] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-04-10 09:12:28,999] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-04-10 09:12:28,999] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
