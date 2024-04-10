@@ -1,5 +1,7 @@
 package spring.patient.service;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import spring.patient.model.FilteredSearch;
@@ -7,7 +9,9 @@ import spring.patient.model.FilteredSearch;
 @Service
 public class FilteredSearchServiceImpl implements FilteredSearchService{
     @Autowired
-    PatientRegistrationService patientRegistrationService;
+    PatientRegistrationService patientRegistrationService = new PatientRegistrationService();
+
+    private static final Logger log = LogManager.getLogger("patientLogin");
     @Override
     public boolean validateSearchCriteria(FilteredSearch filteredSearch) {
         boolean validName = patientRegistrationService.validateRegistrationFormInput(filteredSearch.getDoctor(),
@@ -19,15 +23,42 @@ public class FilteredSearchServiceImpl implements FilteredSearchService{
     }
 
     public int dayToInt(String date) {
-        return Integer.parseInt(date.substring(8));
+        if(date.length() == 10) {
+            try
+            {
+                return Integer.parseInt(date.substring(8));
+            } catch(Exception e) {
+                log.error(e.getMessage());
+                e.printStackTrace();
+            }
+        }
+        return 0;
     }
 
     public int monthToInt(String date) {
-        return Integer.parseInt(date.substring(5,6));
+        if(date.length() == 10) {
+            try
+            {
+                return Integer.parseInt(date.substring(5,7));
+            } catch(Exception e) {
+                log.error(e.getMessage());
+                e.printStackTrace();
+            }
+        }
+        return 0;
     }
 
     public int yearToInt(String date) {
-        return Integer.parseInt(date.substring(0,3));
+        if(date.length() == 10) {
+            try
+            {
+                return Integer.parseInt(date.substring(0,4));
+            } catch(Exception e) {
+                log.error(e.getMessage());
+                e.printStackTrace();
+            }
+        }
+        return 0;
     }
 
     public boolean compareDates(FilteredSearch filteredSearch) {
