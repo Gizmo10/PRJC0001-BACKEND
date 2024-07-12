@@ -7,9 +7,13 @@
     <list default="true" id="4a594e5e-f8ab-4145-9ce7-a73d55e0a2f7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/service/FilteredSearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/FilteredSearchServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/controller/GetMedicalRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/controller/GetMedicalRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/controller/RegisterPatient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/controller/RegisterPatient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/data/PatientRegistrationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/data/PatientRegistrationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/model/FilteredSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/model/FilteredSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientRegistrationInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientRegistrationInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientRegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/patient/service/PatientRegistrationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +81,7 @@
       <recent name="spring.patient.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FilteredSearchServiceImplTest">
+  <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring.patient.Application" />
       <module name="PRJC0001-BACKEN.main" />
@@ -91,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthenticatePatientTest.authenticatesCredentialsSuccessfully" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AppointmentsServiceImplTest.testVerifyAppointmentsValidInput" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -104,7 +108,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;spring.patient.service.AuthenticatePatientTest.authenticatesCredentialsSuccessfully&quot;" />
+            <option value="&quot;spring.patient.service.AppointmentsServiceImplTest.testVerifyAppointmentsValidInput&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -137,29 +141,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PatientLoginServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;spring.patient.service.PatientLoginServiceTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="PatientRegistrationServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -183,13 +164,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Tests in 'PRJC0001-BACKEN.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FilteredSearchServiceImplTest" />
+        <item itemvalue="Gradle.AppointmentsServiceImplTest.testVerifyAppointmentsValidInput" />
+        <item itemvalue="Gradle.Tests in 'PRJC0001-BACKEN.test'" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="Gradle.FilteredSearchServiceImplTest" />
         <item itemvalue="Gradle.PatientRegistrationServiceTest" />
-        <item itemvalue="Gradle.PatientLoginServiceTest" />
-        <item itemvalue="Gradle.AuthenticatePatientTest.authenticatesCredentialsSuccessfully" />
       </list>
     </recent_temporary>
   </component>
@@ -214,5 +216,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PRJC0001_BACKEN$Application.ic" NAME="Application Coverage Results" MODIFIED="1720713592308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>spring.patient.*</FILTER>
+    </SUITE>
   </component>
 </project>
