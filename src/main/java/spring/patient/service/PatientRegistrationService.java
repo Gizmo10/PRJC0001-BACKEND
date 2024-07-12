@@ -149,6 +149,11 @@ public class PatientRegistrationService implements PatientRegistrationInterface{
     }
 
     @Override
+    public Optional<PatientRegistration> findById(String id) {
+        return patientRegistrationDao.findById(id);
+    }
+
+    @Override
     public void save(PatientRegistration patient) {
         patientRegistrationDao.save(patient);
     }
