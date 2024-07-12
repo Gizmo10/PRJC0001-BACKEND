@@ -1291,3 +1291,186 @@
 [2024-04-10 09:12:28,952] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
 [2024-04-10 09:12:28,999] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
 [2024-04-10 09:12:28,999] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-04-12 10:08:11,106] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-04-12 10:08:11,608] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-04-12 10:08:11,639] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-04-12 10:08:11,639] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-04-12 10:08:25,817] http-nio-8080-exec-4 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:36) [INFO ] - Filter medical records search.
+[2024-04-12 10:08:25,834] http-nio-8080-exec-4 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:61) [INFO ] - Search complete.
+[2024-04-12 10:08:36,452] http-nio-8080-exec-6 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:36) [INFO ] - Filter medical records search.
+[2024-04-12 10:08:36,453] http-nio-8080-exec-6 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:61) [INFO ] - Search complete.
+[2024-05-14 13:48:36,172] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-05-14 13:48:36,703] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-05-14 13:48:36,719] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-05-14 13:48:36,719] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-05-14 15:39:41,201] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-05-14 15:39:41,560] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-05-14 15:39:41,576] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-05-14 15:39:41,576] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-05-14 15:45:41,721] http-nio-8080-exec-10 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-05-14 15:45:41,742] http-nio-8080-exec-10 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-05-14 15:45:41,743] http-nio-8080-exec-10 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-05-14 15:45:41,744] http-nio-8080-exec-10 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-05-14 15:50:27,264] http-nio-8080-exec-8 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-05-14 15:50:27,281] http-nio-8080-exec-8 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-05-14 15:50:27,281] http-nio-8080-exec-8 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-05-14 15:50:27,281] http-nio-8080-exec-8 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-05-14 16:07:38,982] http-nio-8080-exec-10 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-05-14 16:07:39,054] http-nio-8080-exec-10 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-05-14 16:07:39,054] http-nio-8080-exec-10 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-05-14 16:07:39,054] http-nio-8080-exec-10 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-05-14 16:18:57,390] http-nio-8080-exec-7 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-05-14 16:18:57,453] http-nio-8080-exec-7 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-05-14 16:18:57,453] http-nio-8080-exec-7 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-05-14 16:18:57,453] http-nio-8080-exec-7 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-05-15 11:52:32,795] http-nio-8080-exec-3 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-05-15 11:52:32,936] http-nio-8080-exec-3 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-05-15 11:52:32,936] http-nio-8080-exec-3 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-05-15 11:52:32,936] http-nio-8080-exec-3 PatientLoginService.authenticate(PatientLoginService.java:48) [WARN ] - Failed to authenticate user: '9106579006123'
+[2024-05-15 11:52:41,575] http-nio-8080-exec-2 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-05-15 11:52:41,596] http-nio-8080-exec-2 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-05-15 11:52:41,607] http-nio-8080-exec-2 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-05-15 11:52:41,607] http-nio-8080-exec-2 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-05-15 11:59:20,588] http-nio-8080-exec-3 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '8810095334080'
+[2024-05-15 11:59:20,619] http-nio-8080-exec-3 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '8810095334080'
+[2024-05-15 11:59:20,619] http-nio-8080-exec-3 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '8810095334080
+[2024-05-15 11:59:20,619] http-nio-8080-exec-3 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '8810095334080'
+[2024-05-15 12:10:00,757] http-nio-8080-exec-6 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '8810095334080'
+[2024-05-15 12:10:00,804] http-nio-8080-exec-6 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '8810095334080'
+[2024-05-15 12:10:00,804] http-nio-8080-exec-6 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '8810095334080
+[2024-05-15 12:10:00,804] http-nio-8080-exec-6 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '8810095334080'
+[2024-05-15 12:11:11,886] http-nio-8080-exec-4 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-05-15 12:11:11,908] http-nio-8080-exec-4 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-05-15 12:11:11,908] http-nio-8080-exec-4 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-05-15 12:11:11,908] http-nio-8080-exec-4 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-05-15 12:11:36,559] http-nio-8080-exec-6 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:36) [INFO ] - Filter medical records search.
+[2024-05-15 12:11:36,684] http-nio-8080-exec-6 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:61) [INFO ] - Search complete.
+[2024-05-15 12:11:45,896] http-nio-8080-exec-7 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:36) [INFO ] - Filter medical records search.
+[2024-05-15 12:11:45,904] http-nio-8080-exec-7 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:61) [INFO ] - Search complete.
+[2024-05-15 12:11:57,259] http-nio-8080-exec-9 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:36) [INFO ] - Filter medical records search.
+[2024-05-15 12:11:57,259] http-nio-8080-exec-9 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:61) [INFO ] - Search complete.
+[2024-05-15 12:24:56,914] http-nio-8080-exec-6 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '8810095334080'
+[2024-05-15 12:24:57,039] http-nio-8080-exec-6 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '8810095334080'
+[2024-05-15 12:24:57,039] http-nio-8080-exec-6 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '8810095334080
+[2024-05-15 12:24:57,039] http-nio-8080-exec-6 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '8810095334080'
+[2024-05-15 12:35:48,324] http-nio-8080-exec-3 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '8810095334080'
+[2024-05-15 12:35:48,402] http-nio-8080-exec-3 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '8810095334080'
+[2024-05-15 12:35:48,402] http-nio-8080-exec-3 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '8810095334080
+[2024-05-15 12:35:48,402] http-nio-8080-exec-3 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '8810095334080'
+[2024-05-15 12:45:04,227] http-nio-8080-exec-9 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '8810095334080'
+[2024-05-15 12:45:04,268] http-nio-8080-exec-9 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '8810095334080'
+[2024-05-15 12:45:04,283] http-nio-8080-exec-9 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '8810095334080
+[2024-05-15 12:45:04,283] http-nio-8080-exec-9 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '8810095334080'
+[2024-05-15 12:55:31,896] http-nio-8080-exec-10 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '8810095334080'
+[2024-05-15 12:55:31,974] http-nio-8080-exec-10 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '8810095334080'
+[2024-05-15 12:55:31,990] http-nio-8080-exec-10 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '8810095334080
+[2024-05-15 12:55:31,990] http-nio-8080-exec-10 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '8810095334080'
+[2024-05-15 13:48:29,281] http-nio-8080-exec-3 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '8810095334080'
+[2024-05-15 13:48:29,468] http-nio-8080-exec-3 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '8810095334080'
+[2024-05-15 13:48:29,468] http-nio-8080-exec-3 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '8810095334080
+[2024-05-15 13:48:29,468] http-nio-8080-exec-3 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '8810095334080'
+[2024-05-16 14:49:21,834] http-nio-8080-exec-7 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-05-16 14:49:21,990] http-nio-8080-exec-7 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-05-16 14:49:21,990] http-nio-8080-exec-7 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-05-16 14:49:21,990] http-nio-8080-exec-7 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-05-16 15:46:32,218] http-nio-8080-exec-6 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-05-16 15:46:32,362] http-nio-8080-exec-6 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-05-16 15:46:32,377] http-nio-8080-exec-6 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-05-16 15:46:32,377] http-nio-8080-exec-6 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-05-16 17:38:31,724] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-05-16 17:38:32,294] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-05-16 17:38:32,326] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-05-16 17:38:32,326] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-05-16 17:39:25,495] http-nio-8080-exec-8 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '8810095334080'
+[2024-05-16 17:39:25,507] http-nio-8080-exec-8 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '8810095334080'
+[2024-05-16 17:39:25,507] http-nio-8080-exec-8 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '8810095334080
+[2024-05-16 17:39:25,507] http-nio-8080-exec-8 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '8810095334080'
+[2024-05-16 17:47:22,779] http-nio-8080-exec-9 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '8810095334080'
+[2024-05-16 17:47:22,793] http-nio-8080-exec-9 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '8810095334080'
+[2024-05-16 17:47:22,794] http-nio-8080-exec-9 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '8810095334080
+[2024-05-16 17:47:22,795] http-nio-8080-exec-9 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '8810095334080'
+[2024-05-16 17:51:27,951] http-nio-8080-exec-4 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '8810095334080'
+[2024-05-16 17:51:27,962] http-nio-8080-exec-4 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '8810095334080'
+[2024-05-16 17:51:27,962] http-nio-8080-exec-4 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '8810095334080
+[2024-05-16 17:51:27,977] http-nio-8080-exec-4 PatientLoginService.authenticate(PatientLoginService.java:48) [WARN ] - Failed to authenticate user: '8810095334080'
+[2024-05-16 17:51:40,853] http-nio-8080-exec-3 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '8810095334080'
+[2024-05-16 17:51:40,867] http-nio-8080-exec-3 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '8810095334080'
+[2024-05-16 17:51:40,867] http-nio-8080-exec-3 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '8810095334080
+[2024-05-16 17:51:40,868] http-nio-8080-exec-3 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '8810095334080'
+[2024-05-16 18:25:49,242] http-nio-8080-exec-4 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '8810095334080'
+[2024-05-16 18:25:49,383] http-nio-8080-exec-4 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '8810095334080'
+[2024-05-16 18:25:49,383] http-nio-8080-exec-4 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '8810095334080
+[2024-05-16 18:25:49,383] http-nio-8080-exec-4 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '8810095334080'
+[2024-05-16 18:26:38,053] http-nio-8080-exec-9 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:26) [INFO ] - Creating appointment for user: '8810095334080'
+[2024-05-16 18:26:38,069] http-nio-8080-exec-9 PatientRegistrationService.validateRegistrationFormInput(PatientRegistrationService.java:66) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-05-16 18:26:38,069] http-nio-8080-exec-9 PatientRegistrationService.validateRegistrationFormInput(PatientRegistrationService.java:66) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-05-16 18:26:38,069] http-nio-8080-exec-9 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:32) [WARN ] - Failed to create appointment for user: '8810095334080'
+[2024-07-11 17:35:30,777] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9106579006123'
+[2024-07-11 17:35:31,372] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9106579006123'
+[2024-07-11 17:35:31,413] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9106579006123
+[2024-07-11 17:35:31,413] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9106579006123'
+[2024-07-11 17:41:37,980] http-nio-8080-exec-5 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9401035223099 '
+[2024-07-11 17:41:37,995] http-nio-8080-exec-5 PatientLoginService.authenticate(PatientLoginService.java:51) [WARN ] - Invalid credentials user: '9401035223099 '
+[2024-07-11 17:43:34,865] http-nio-8080-exec-6 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9003145775099'
+[2024-07-11 17:43:34,979] http-nio-8080-exec-6 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9003145775099'
+[2024-07-11 17:43:34,995] http-nio-8080-exec-6 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9003145775099
+[2024-07-11 17:43:34,995] http-nio-8080-exec-6 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9003145775099'
+[2024-07-11 17:44:18,602] http-nio-8080-exec-1 MedicalRecordsService.save(MedicalRecordsService.java:27) [INFO ] - Creating record for user: '9003145775099'
+[2024-07-11 17:44:19,035] http-nio-8080-exec-1 MedicalRecordsService.save(MedicalRecordsService.java:30) [INFO ] - Successfully created record for user: '9003145775099'
+[2024-07-11 17:44:53,245] http-nio-8080-exec-6 MedicalRecordsService.save(MedicalRecordsService.java:27) [INFO ] - Creating record for user: '9003145775099'
+[2024-07-11 17:44:53,283] http-nio-8080-exec-6 MedicalRecordsService.save(MedicalRecordsService.java:30) [INFO ] - Successfully created record for user: '9003145775099'
+[2024-07-11 17:45:41,818] http-nio-8080-exec-10 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:30) [INFO ] - Creating appointment for user: '9003145775099'
+[2024-07-11 17:45:41,831] http-nio-8080-exec-10 PatientRegistrationService.validateRegistrationFormInput(PatientRegistrationService.java:66) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-07-11 17:45:41,832] http-nio-8080-exec-10 PatientRegistrationService.validateRegistrationFormInput(PatientRegistrationService.java:66) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-07-11 17:45:41,835] http-nio-8080-exec-10 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:36) [WARN ] - Failed to create appointment for user: '9003145775099'
+[2024-07-11 18:00:48,485] http-nio-8080-exec-1 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:30) [INFO ] - Creating appointment for user: '9003145775099'
+[2024-07-11 18:00:48,501] http-nio-8080-exec-1 PatientRegistrationService.validateRegistrationFormInput(PatientRegistrationService.java:66) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-07-11 18:00:48,501] http-nio-8080-exec-1 PatientRegistrationService.validateRegistrationFormInput(PatientRegistrationService.java:66) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-07-11 18:00:48,501] http-nio-8080-exec-1 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:36) [WARN ] - Failed to create appointment for user: '9003145775099'
+[2024-07-11 18:03:19,625] http-nio-8080-exec-1 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:30) [INFO ] - Creating appointment for user: '9003145775099'
+[2024-07-11 18:03:19,627] http-nio-8080-exec-1 PatientRegistrationService.validateRegistrationFormInput(PatientRegistrationService.java:66) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-07-11 18:03:19,629] http-nio-8080-exec-1 PatientRegistrationService.validateRegistrationFormInput(PatientRegistrationService.java:66) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-07-11 18:03:19,629] http-nio-8080-exec-1 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:36) [WARN ] - Failed to create appointment for user: '9003145775099'
+[2024-07-11 18:11:14,494] http-nio-8080-exec-1 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:30) [INFO ] - Creating appointment for user: '9003145775099'
+[2024-07-11 18:17:32,112] http-nio-8080-exec-3 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:30) [INFO ] - Creating appointment for user: '9003145775099'
+[2024-07-11 18:17:32,116] http-nio-8080-exec-3 PatientRegistrationService.validateRegistrationFormInput(PatientRegistrationService.java:66) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-07-11 18:17:32,118] http-nio-8080-exec-3 PatientRegistrationService.validateRegistrationFormInput(PatientRegistrationService.java:66) [ERROR] - Cannot invoke "java.lang.CharSequence.length()" because "this.text" is null
+[2024-07-11 18:17:32,119] http-nio-8080-exec-3 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:36) [WARN ] - Failed to create appointment for user: '9003145775099'
+[2024-07-11 18:32:50,309] http-nio-8080-exec-2 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9003145775099'
+[2024-07-11 18:32:50,659] http-nio-8080-exec-2 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9003145775099'
+[2024-07-11 18:32:50,671] http-nio-8080-exec-2 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9003145775099
+[2024-07-11 18:32:50,672] http-nio-8080-exec-2 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9003145775099'
+[2024-07-11 18:33:24,742] http-nio-8080-exec-8 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:36) [INFO ] - Filter medical records search.
+[2024-07-11 18:33:24,757] http-nio-8080-exec-8 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:61) [INFO ] - Search complete.
+[2024-07-11 18:33:27,877] http-nio-8080-exec-3 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:36) [INFO ] - Filter medical records search.
+[2024-07-11 18:33:27,879] http-nio-8080-exec-3 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:61) [INFO ] - Search complete.
+[2024-07-11 18:33:47,921] http-nio-8080-exec-9 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:36) [INFO ] - Filter medical records search.
+[2024-07-11 18:33:47,925] http-nio-8080-exec-9 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:61) [INFO ] - Search complete.
+[2024-07-11 18:34:22,600] http-nio-8080-exec-2 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:30) [INFO ] - Creating appointment for user: '9003145775099'
+[2024-07-11 18:34:22,694] http-nio-8080-exec-2 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:33) [INFO ] - Successfully created appointment for user: '9003145775099'
+[2024-07-11 18:34:55,440] http-nio-8080-exec-3 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:30) [INFO ] - Creating appointment for user: '9003145775099'
+[2024-07-11 18:34:55,448] http-nio-8080-exec-3 AppointmentsServiceImpl.save(AppointmentsServiceImpl.java:33) [INFO ] - Successfully created appointment for user: '9003145775099'
+[2024-07-11 18:56:41,040] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: '9003145775099'
+[2024-07-11 18:56:41,540] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '9003145775099'
+[2024-07-11 18:56:41,602] http-nio-8080-exec-1 PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '9003145775099
+[2024-07-11 18:56:41,602] http-nio-8080-exec-1 PatientLoginService.authenticate(PatientLoginService.java:46) [INFO ] - Successfully authenticated user: '9003145775099'
+[2024-07-11 18:56:48,812] http-nio-8080-exec-6 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:36) [INFO ] - Filter medical records search.
+[2024-07-11 18:56:48,825] http-nio-8080-exec-6 MedicalRecordsCustomRepoImpl.filteredSearchList(MedicalRecordsCustomRepoImpl.java:61) [INFO ] - Search complete.
+[2024-07-11 18:57:11,009] http-nio-8080-exec-3 AppointmentsDaoCustomRepoImpl.findAllAppointmentsByFilter(AppointmentsDaoCustomRepoImpl.java:39) [INFO ] - Filter appointments search.
+[2024-07-11 18:57:11,010] http-nio-8080-exec-3 AppointmentsDaoCustomRepoImpl.findAllAppointmentsByFilter(AppointmentsDaoCustomRepoImpl.java:64) [INFO ] - Search complete.
+[2024-07-11 18:58:09,091] http-nio-8080-exec-2 PatientLoginService.authenticate(PatientLoginService.java:31) [INFO ] - Authenticating user: ''
+[2024-07-11 18:58:09,092] http-nio-8080-exec-2 PatientLoginService.authenticate(PatientLoginService.java:51) [WARN ] - Invalid credentials user: ''
+[2024-07-12 13:49:26,643] Test worker PatientLoginService.createPasswordSalt(PatientLoginService.java:87) [INFO ] - Generating salt for user: '6910056332070'
+[2024-07-12 13:49:26,674] Test worker PatientLoginService.createPasswordSalt(PatientLoginService.java:98) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-07-12 13:49:26,676] Test worker PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '6910056332070'
+[2024-07-12 13:49:26,707] Test worker PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '6910056332070
+[2024-07-12 13:49:26,714] Test worker PatientLoginService.createPasswordSalt(PatientLoginService.java:87) [INFO ] - Generating salt for user: '6910056332070'
+[2024-07-12 13:49:26,716] Test worker PatientLoginService.createPasswordSalt(PatientLoginService.java:98) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-07-12 13:49:26,719] Test worker PatientLoginService.createPasswordHash(PatientLoginService.java:106) [INFO ] - Generating hash for user: '6910056332070'
+[2024-07-12 13:49:26,725] Test worker PatientLoginService.createPasswordHash(PatientLoginService.java:115) [INFO ] - Successfully generated hash for user: '6910056332070
+[2024-07-12 13:49:26,735] Test worker PatientLoginService.createPasswordSalt(PatientLoginService.java:87) [INFO ] - Generating salt for user: '6910056332070'
+[2024-07-12 13:49:26,738] Test worker PatientLoginService.createPasswordSalt(PatientLoginService.java:98) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-07-12 13:49:26,743] Test worker PatientLoginService.createPasswordSalt(PatientLoginService.java:87) [INFO ] - Generating salt for user: '6910056332070'
+[2024-07-12 13:49:26,745] Test worker PatientLoginService.createPasswordSalt(PatientLoginService.java:98) [INFO ] - Successfully generated salt for user: '6910056332070'
+[2024-07-12 13:49:26,751] Test worker PatientLoginService.createPasswordSalt(PatientLoginService.java:87) [INFO ] - Generating salt for user: '6910056332070'
+[2024-07-12 13:49:26,754] Test worker PatientLoginService.createPasswordSalt(PatientLoginService.java:98) [INFO ] - Successfully generated salt for user: '6910056332070'
