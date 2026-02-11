@@ -11,7 +11,7 @@ public class SqlUtil {
     public SqlUtil() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            this.connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/med_records_data", "root", "bsx@14EHI");
+            this.connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/med_records_data", "root", "///");
             if (this.connection.equals(null)) {
                 System.out.println("Failed to connect to database");
             } else {
@@ -30,3 +30,4 @@ public class SqlUtil {
         return connection;
     }
 }
+
